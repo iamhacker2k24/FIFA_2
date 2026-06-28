@@ -9,7 +9,6 @@ export default function App() {
   const chatRef = useRef(null);
 
   const servers = [
-    { name: "Letent", url: import.meta.env.VITE_SERVER_0 },
     { name: "S_1", url: import.meta.env.VITE_SERVER_1 },
     { name: "S_2", url: import.meta.env.VITE_SERVER_2 },
     { name: "S_3", url: import.meta.env.VITE_SERVER_3 },
@@ -20,14 +19,7 @@ export default function App() {
     { name: "S_8", url: import.meta.env.VITE_SERVER_8 },
     { name: "S_9", url: import.meta.env.VITE_SERVER_9 },
     { name: "S_10", url: import.meta.env.VITE_SERVER_10 },
-    { name: "S_11", url: import.meta.env.VITE_SERVER_11 },
-    { name: "S_12", url: import.meta.env.VITE_SERVER_12 },
-    { name: "S_13", url: import.meta.env.VITE_SERVER_13 },
-    { name: "S_14", url: import.meta.env.VITE_SERVER_14 },
-    { name: "S_15", url: import.meta.env.VITE_SERVER_15 },
-    { name: "S_16", url: import.meta.env.VITE_SERVER_16 },
-    { name: "S_17", url: import.meta.env.VITE_SERVER_17 },
-    { name: "S_18", url: import.meta.env.VITE_SERVER_18 },
+    { name: "S_11", url: import.meta.env.VITE_SERVER_11 }
   ].filter((s) => s.url);
 
   const [currentServer, setCurrentServer] = useState(0);
