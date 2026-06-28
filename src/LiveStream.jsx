@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 
 export default function App() {
   const servers = [
-     import.meta.env.VITE_SERVER_0,
     import.meta.env.VITE_SERVER_1,
     import.meta.env.VITE_SERVER_2,
     import.meta.env.VITE_SERVER_3,
@@ -12,15 +11,7 @@ export default function App() {
     import.meta.env.VITE_SERVER_7,
     import.meta.env.VITE_SERVER_8,
     import.meta.env.VITE_SERVER_9,
-    import.meta.env.VITE_SERVER_10,
-    import.meta.env.VITE_SERVER_11,
-    import.meta.env.VITE_SERVER_12,
-    import.meta.env.VITE_SERVER_13,
-    import.meta.env.VITE_SERVER_14,
-    import.meta.env.VITE_SERVER_15,
-    import.meta.env.VITE_SERVER_16,
-    import.meta.env.VITE_SERVER_17,
-    import.meta.env.VITE_SERVER_18
+    import.meta.env.VITE_SERVER_10
   ].filter(Boolean);
 
   const [currentServer, setCurrentServer] = useState(0);
