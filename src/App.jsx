@@ -210,6 +210,9 @@ export default function App() {
                 <p className="font-bold text-green-400 text-lg flex items-center gap-2">
                   Debabrata<span className="animate-bounce">💻✨</span>
                 </p>
+                <p className="font-bold text-orange-400 text-lg flex items-center gap-2">
+                  last edit <span >23.44 IND</span>
+                </p>
               </div>
             </div>
           </div>
