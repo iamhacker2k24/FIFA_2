@@ -203,7 +203,7 @@ export default function App() {
                 This website is created solely for educational purposes. We do not support or promote piracy in any way.
               </p>
 
-              <div className="h-[1px] w-full bg-white/10 my-2"></div>
+              <div className="h-px w-full bg-white/10 my-2"></div>
 
               <div className="flex flex-col items-center gap-1">
                 <p className="text-xs text-zinc-400">Created by</p>
