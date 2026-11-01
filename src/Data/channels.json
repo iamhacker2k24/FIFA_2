@@ -6,8 +6,9 @@
     "group": "Promo",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://playztv.pages.dev/promo/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_1",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_2",
@@ -16,8 +17,9 @@
     "group": "Entertainment",
     "resolution": "720p",
     "isMovie": false,
-    "streamUrl": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_2",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_3",
@@ -26,8 +28,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_3",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_4",
@@ -36,8 +39,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_4",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_5",
@@ -46,8 +50,9 @@
     "group": "Bangla",
     "resolution": "720p",
     "isMovie": false,
-    "streamUrl": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_5",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_6",
@@ -56,8 +61,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_6",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_7",
@@ -66,8 +72,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_7",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_8",
@@ -76,8 +83,9 @@
     "group": "Bangla",
     "resolution": "720p",
     "isMovie": false,
-    "streamUrl": "http://tvsen5.aynascope.net/RtvHD/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_8",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_9",
@@ -86,8 +94,9 @@
     "group": "Entertainment",
     "resolution": "1080p",
     "isMovie": false,
-    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_9",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_10",
@@ -96,8 +105,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_10",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_11",
@@ -106,8 +116,9 @@
     "group": "Bangla",
     "resolution": "720p",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_11",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_12",
@@ -116,8 +127,9 @@
     "group": "Bangla",
     "resolution": "720p",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_12",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_13",
@@ -126,8 +138,9 @@
     "group": "Entertainment",
     "resolution": "720p",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_13",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_14",
@@ -136,8 +149,9 @@
     "group": "Sports",
     "resolution": "1080p",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_14",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_15",
@@ -146,8 +160,9 @@
     "group": "Entertainment",
     "resolution": "SD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_15",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_16",
@@ -156,8 +171,9 @@
     "group": "Bangla",
     "resolution": "720p",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_16",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_17",
@@ -166,8 +182,9 @@
     "group": "Entertainment",
     "resolution": "1080p",
     "isMovie": false,
-    "streamUrl": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_17",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_18",
@@ -176,8 +193,9 @@
     "group": "Star Jalsha",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://premiumtvs.space/live/YqXTywueEV/damp2purchase/198.ts",
-    "streamType": "ts"
+    "streamUrl": "/api/stream/tv/ch_18",
+    "streamType": "ts",
+    "playerType": "iframe"
   },
   {
     "id": "ch_19",
@@ -186,8 +204,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_19",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_20",
@@ -196,8 +215,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_20",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_21",
@@ -206,8 +226,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/da6WMXAk/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_21",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_22",
@@ -216,8 +237,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_22",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_23",
@@ -226,8 +248,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_23",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_24",
@@ -236,8 +259,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_24",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_25",
@@ -246,8 +270,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_25",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_26",
@@ -256,8 +281,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://stream.ottplus.live/live/bijoy_tv_abr/live/bijoy_tv_720/chunks.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_26",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_27",
@@ -266,8 +292,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_27",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_28",
@@ -276,8 +303,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_28",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_29",
@@ -286,8 +314,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_29",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_30",
@@ -296,8 +325,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_30",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_31",
@@ -306,8 +336,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://premimum.online:80/live/jen12345/jen54321/98854.ts",
-    "streamType": "ts"
+    "streamUrl": "/api/stream/tv/ch_31",
+    "streamType": "ts",
+    "playerType": "iframe"
   },
   {
     "id": "ch_32",
@@ -316,8 +347,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://hncfree-samsungau.amagi.tv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_32",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_33",
@@ -326,8 +358,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_33",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_34",
@@ -336,8 +369,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_34",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_35",
@@ -346,8 +380,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://stream.ottplus.live/live/mohona_tv_abr/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_35",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_36",
@@ -356,8 +391,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://tvsen5.aynascope.net/RtvHD/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_36",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_37",
@@ -366,8 +402,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_37",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_38",
@@ -376,8 +413,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_38",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_39",
@@ -386,8 +424,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_39",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_40",
@@ -396,8 +435,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_40",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_41",
@@ -406,8 +446,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_41",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_42",
@@ -416,8 +457,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_42",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_43",
@@ -426,8 +468,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_43",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_44",
@@ -436,8 +479,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_44",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_45",
@@ -446,8 +490,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_45",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_46",
@@ -456,8 +501,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_46",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_47",
@@ -466,8 +512,9 @@
     "group": "Others",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_47",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_48",
@@ -476,8 +523,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_48",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_49",
@@ -486,8 +534,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_49",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_50",
@@ -496,8 +545,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_50",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_51",
@@ -506,8 +556,9 @@
     "group": "Documentary",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_51",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_52",
@@ -516,8 +567,9 @@
     "group": "Others",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://115.187.41.216:8080/hls/digitalfashion/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_52",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_53",
@@ -526,8 +578,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_53",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_54",
@@ -536,8 +589,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_54",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_55",
@@ -546,8 +600,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_55",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_56",
@@ -556,8 +611,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_56",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_57",
@@ -566,8 +622,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_57",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_58",
@@ -576,8 +633,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_58",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_59",
@@ -586,8 +644,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/anandatv/index.m3u8?e=1779283759&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=504b9350b4703116ca4ab20e4013288e",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_59",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_60",
@@ -596,8 +655,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/banglatv/index.m3u8?e=1779283758&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f3e9e2737e35147900c0f4add619ead6",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_60",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_61",
@@ -606,8 +666,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/channel9/index.m3u8?e=1779283756&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6d1662351f39dd5277df069a01f46fee",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_61",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_62",
@@ -616,8 +677,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/durontotv-live/index.m3u8?e=1779283757&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3da514e08a15c80daed60a18b3f423fa",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_62",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_63",
@@ -626,8 +688,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/boishakhitv/index.m3u8?e=1779283755&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f3f4ec98ffbd9567c21e8b2ee98e32d5",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_63",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_64",
@@ -636,8 +699,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/deshtv/index.m3u8?e=1779283755&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9cf4584fd86e1427935f23b30fd28799",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_64",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_65",
@@ -646,8 +710,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/RtvHD/index.m3u8?e=1779283751&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=678f1f8ec03b1af7b76d013d33f45198",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_65",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_66",
@@ -656,8 +721,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/atnbangla/index.m3u8?e=1779283752&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e20058ae495a80a83ec09cb9d82b9253",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_66",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_67",
@@ -666,8 +732,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/banglavision/index.m3u8?e=1779283750&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c6bb7760d6eb9b999205a81ca4f4f51c",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_67",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_68",
@@ -676,8 +743,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/Ravc7gPCZpxk/index.m3u8?e=1779283754&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0cdc69aae0d57f2ce93a41a608a3d821",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_68",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_69",
@@ -686,8 +754,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/channeli/index.m3u8?e=1779283749&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1d2782c406bc6c9f853716c3dc41a439",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_69",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_70",
@@ -696,8 +765,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/asiantv/index.m3u8?e=1779283756&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=46e2c2d74460202bdd6638ed54273e2a",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_70",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_71",
@@ -706,8 +776,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/ntvbd/index.m3u8?e=1779283750&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=dac30ebda5dba60e895e85ddee645992",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_71",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_72",
@@ -716,8 +787,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/globaltvhd/index.m3u8?e=1779283760&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9877fe1456ffd7b4e155ff0dc042c176",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_72",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_73",
@@ -726,8 +798,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/mohonatv/index.m3u8?e=1779283762&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=017ac949515fd9b0181090287f362d2b",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_73",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_74",
@@ -736,8 +809,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8?e=1779283753&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d29aadd6d2d6f7a0a28fabc7830ae6e3",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_74",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_75",
@@ -746,8 +820,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/nexustv/index.m3u8?e=1779283761&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=bbcba35ac711c3545a56b3580503ee00",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_75",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_76",
@@ -756,8 +831,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/satv/index.m3u8?e=1779283757&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=336f19de5e4aacae753d7524d86d1a89",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_76",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_77",
@@ -766,8 +842,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/etv/index.m3u8?e=1779283752&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2c4b5c7a7044076e38b667d37971baec",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_77",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_78",
@@ -776,8 +853,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/bijoytv/index.m3u8?e=1779283761&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5c8b85f4f92c654640f3abdc1ac061c6",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_78",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_79",
@@ -786,8 +864,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/mytv/index.m3u8?e=1779283760&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0a2ae0189a44e789d3fecffe5a474ec3",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_79",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_80",
@@ -796,8 +875,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/DeeptoTVHD/index.m3u8?e=1779283753&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=12455a1472f0cbf29e22967cc44a49c0",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_80",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_81",
@@ -806,8 +886,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1779283784&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3b4c5a2cfa872fa7f91ffbfb4aa0f658",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_81",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_82",
@@ -816,8 +897,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/CricketGold/index.m3u8?e=1779283786&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=7c79e4f07ef8bf05e35ecffd9e056652",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_82",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_83",
@@ -826,8 +908,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/asports/index.m3u8?e=1779283785&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=356b906bf972b824782bb58c1ce0bb22",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_83",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_84",
@@ -836,8 +919,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/PtvSports/index.m3u8?e=1779283784&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=db1789e36c278bf538489fac263e0ffb",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_84",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_85",
@@ -846,8 +930,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/golfchannel/index.m3u8?e=1779283789&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=56943a1262fd47843d1dbaaaf88363bc",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_85",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_86",
@@ -856,8 +941,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/foxsports2/index.m3u8?e=1779283790&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=cbb7f40b4af7be51a91e0629a5ac7238",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_86",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_87",
@@ -866,8 +952,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/tsn2/index.m3u8?e=1779283793&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=636d9b8b83d4316193c2d1c9aad8951c",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_87",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_88",
@@ -876,8 +963,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/talkSPORT/index.m3u8?e=1779283794&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=24b590ae2b7927c00a9acc3a97bc5d86",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_88",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_89",
@@ -886,8 +974,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/espn/index.m3u8?e=1779283793&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=cf2b4cb8b6c96ab86daee4299c792295",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_89",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_90",
@@ -896,8 +985,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/MarqueeSportsNetwork/index.m3u8?e=1779283796&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a91e537a0eb1a24ed472a508e90fefcc",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_90",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_91",
@@ -906,8 +996,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/SportsGrid/index.m3u8?e=1779283798&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=652ed8ae174a9efdb335fb31355f0fb5",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_91",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_92",
@@ -916,8 +1007,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/tsn3/index.m3u8?e=1779283805&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fd3b5d71227f183da51caba4325cee10",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_92",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_93",
@@ -926,8 +1018,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/tsn1/index.m3u8?e=1779283805&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e5ce886378c54bd381b9833b5d57649a",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_93",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_94",
@@ -936,8 +1029,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/bloombergtv/index.m3u8?e=1779283799&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ecba4c0cf6ffc82d2d0dfc78f69c1061",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_94",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_95",
@@ -946,8 +1040,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/nfl/index.m3u8?e=1779283803&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1b632116fe249e5c6c5307adc395a1ec",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_95",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_96",
@@ -956,8 +1051,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1779283803&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2fe7bf4f892cf09f80087b8146545bad",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_96",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_97",
@@ -966,8 +1062,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-6.pishow.tv/live/13/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_97",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_98",
@@ -976,8 +1073,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_98",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_99",
@@ -986,8 +1084,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_99",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_100",
@@ -996,8 +1095,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://linear-493.frequency.stream/dist/glewedtv/493/hls/master/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_100",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_101",
@@ -1006,8 +1106,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_101",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_102",
@@ -1016,8 +1117,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_102",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_103",
@@ -1026,8 +1128,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_103",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_104",
@@ -1036,8 +1139,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_104",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_105",
@@ -1046,8 +1150,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_105",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_106",
@@ -1056,8 +1161,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_106",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_107",
@@ -1066,8 +1172,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_107",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_108",
@@ -1076,8 +1183,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_108",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_109",
@@ -1086,8 +1194,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_109",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_110",
@@ -1096,8 +1205,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/willowhd/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_110",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_111",
@@ -1106,8 +1216,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/sspts1/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_111",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_112",
@@ -1116,8 +1227,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_112",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_113",
@@ -1126,8 +1238,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_113",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_114",
@@ -1136,8 +1249,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_114",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_115",
@@ -1146,8 +1260,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-240p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_115",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_116",
@@ -1156,8 +1271,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/fighter/chunks.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_116",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_117",
@@ -1166,8 +1282,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://linear-893.frequency.stream/mt/plex/893/hls/master/playlist_640x360.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_117",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_118",
@@ -1176,8 +1293,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_118",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_119",
@@ -1186,8 +1304,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_119",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_120",
@@ -1196,8 +1315,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_120",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_121",
@@ -1206,8 +1326,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_121",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_122",
@@ -1216,8 +1337,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_122",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_123",
@@ -1226,8 +1348,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_123",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_124",
@@ -1236,8 +1359,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_124",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_125",
@@ -1246,8 +1370,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_125",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_126",
@@ -1256,8 +1381,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/AbcNews/index.m3u8?e=1779283763&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6768af084e787f0340bb860898c7323b",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_126",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_127",
@@ -1266,8 +1392,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/atnnews/index.m3u8?e=1779283767&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9e9b363bb761a6f0d5547b465dfbbede",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_127",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_128",
@@ -1276,8 +1403,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/somoytv/index.m3u8?e=1779283766&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=269246b8a31fb3a656624d71e10e447d",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_128",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_129",
@@ -1286,8 +1414,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/dbcnews/index.m3u8?e=1779283768&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9e5c2851814ffe8483f21f50dfbcb4b9",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_129",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_130",
@@ -1296,8 +1425,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/ekhontv/index.m3u8?e=1779283769&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d3dc5ee2773ce51cc8c2805a647bf2de",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_130",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_131",
@@ -1306,8 +1436,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/news24/index.m3u8?e=1779283769&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a773d74ac7f54526f02c2840c88335fa",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_131",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_132",
@@ -1316,8 +1447,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/jamunatv/index.m3u8?e=1779283771&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2592d440f00d65738bd7f6c5158ce486",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_132",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_133",
@@ -1326,8 +1458,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/ekattorbdtv/index.m3u8?e=1779283770&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=dc7810d37e97e9d5ef235e0781255c24",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_133",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_134",
@@ -1336,8 +1469,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/cnn/index.m3u8?e=1779283771&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c376091ef0bd820afc51b7df095890ad",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_134",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_135",
@@ -1346,8 +1480,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/ANB_News/index.m3u8?e=1779283775&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0d5440e04712dc0b1241afdae93870af",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_135",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_136",
@@ -1356,8 +1491,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/News1India/index.m3u8?e=1779283776&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6d6db6b052c40b28cf578dbd6f3a8074",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_136",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_137",
@@ -1366,8 +1502,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/SadhnaPrimeNews/index.m3u8?e=1779283776&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b7c8bc4950351fd2e670989427bc7ecd",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_137",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_138",
@@ -1376,8 +1513,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/nhkworld/index.m3u8?e=1779283773&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ef0f1eac47ab752c414b7df7414f6f0f",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_138",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_139",
@@ -1386,8 +1524,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/skynews/index.m3u8?e=1779283779&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0c0ad5384d413ff6aafd6e3acbe17cb3",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_139",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_140",
@@ -1396,8 +1535,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_140",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_141",
@@ -1406,8 +1546,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://feeds.intoday.in/hltapps/api/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_141",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_142",
@@ -1416,8 +1557,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_142",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_143",
@@ -1426,8 +1568,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_143",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_144",
@@ -1436,8 +1579,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_144",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_145",
@@ -1446,8 +1590,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_145",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_146",
@@ -1456,8 +1601,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_146",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_147",
@@ -1466,8 +1612,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_147",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_148",
@@ -1476,8 +1623,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEeast.smil/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_148",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_149",
@@ -1486,8 +1634,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_149",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_150",
@@ -1496,8 +1645,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_150",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_151",
@@ -1506,8 +1656,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_151",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_152",
@@ -1516,8 +1667,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/france24english/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_152",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_153",
@@ -1526,8 +1678,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/euronews/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_153",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_154",
@@ -1536,8 +1689,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/africanews/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_154",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_155",
@@ -1546,8 +1700,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_155",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_156",
@@ -1556,8 +1711,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/@abcnewsaustralia/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_156",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_157",
@@ -1566,8 +1722,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_157",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_158",
@@ -1576,8 +1733,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_158",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_159",
@@ -1586,8 +1744,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_159",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_160",
@@ -1596,8 +1755,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UCZFMm1mMw0F81Z37aaEzTUA.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_160",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_161",
@@ -1606,8 +1766,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UCoMdktPbSTixAyNGwb-UYkQ.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_161",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_162",
@@ -1616,8 +1777,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UCSPEjw8F2nQDtmUKPFNF7_A.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_162",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_163",
@@ -1626,8 +1788,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_163",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_164",
@@ -1636,8 +1799,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/channelstelevision/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_164",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_165",
@@ -1646,8 +1810,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/chunklist_b250000_t64MjQwcA==.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_165",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_166",
@@ -1656,8 +1821,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UC_gUM8rL-Lrg6O3adPW9K1g.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_166",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_167",
@@ -1666,8 +1832,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_167",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_168",
@@ -1676,8 +1843,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UC83jt4dlz1Gjl58fzQrrKZg.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_168",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_169",
@@ -1686,8 +1854,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UCGDQNvybfDDeGTf4GtigXaw.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_169",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_170",
@@ -1696,8 +1865,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/tvcnewsnigeria/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_170",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_171",
@@ -1706,8 +1876,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UChd1DEecCRlxaa0-hvPACCw.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_171",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_172",
@@ -1716,8 +1887,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UC7c6rvyAZLpKGk8ttVnpnLA.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_172",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_173",
@@ -1726,8 +1898,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UC0vn8ISa4LKMunLbzaXLnOQ.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_173",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_174",
@@ -1736,8 +1909,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ythls.armelin.one/channel/UC7fWeaHhqgM4Ry-RMpM2YYw.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_174",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_175",
@@ -1746,8 +1920,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=1692000.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_175",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_176",
@@ -1756,8 +1931,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_176",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_177",
@@ -1766,8 +1942,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_177",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_178",
@@ -1776,8 +1953,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_178",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_179",
@@ -1786,8 +1964,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_179",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_180",
@@ -1796,8 +1975,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://a-cdn.klowdtv.com/live2/france24_720p/chunks.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_180",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_181",
@@ -1806,8 +1986,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-samsungin-cnnnow-samsungin/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_181",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_182",
@@ -1816,8 +1997,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/masterb_720p@3.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_182",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_183",
@@ -1826,8 +2008,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://jk3lz82elw79-hls-live.5centscdn.com/newgeonews/07811dc6c422334ce36a09ff5cd6fe71.sdp/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_183",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_184",
@@ -1836,8 +2019,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/HindiKhabar/index.m3u8?e=1779283779&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=7b43f60b9dbb9fbf01ff5e9abeac579d",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_184",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_185",
@@ -1846,8 +2030,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_185",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_186",
@@ -1856,8 +2041,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_186",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_187",
@@ -1866,8 +2052,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_187",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_188",
@@ -1876,8 +2063,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_188",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_189",
@@ -1886,8 +2074,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_189",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_190",
@@ -1896,8 +2085,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_190",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_191",
@@ -1906,8 +2096,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_191",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_192",
@@ -1916,8 +2107,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/btvctg/index.m3u8?e=1779283747&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=9bca925fbdfe526b29d41ab7802348ec",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_192",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_193",
@@ -1926,8 +2118,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/kolkatatv/index.m3u8?e=1779283837&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8cc8bac4fecb91a1f2e5443bbc180545",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_193",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_194",
@@ -1936,8 +2129,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/R_Bangla/index.m3u8?e=1779283835&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fd3c370d04fa673a7faa815a98ef3ed9",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_194",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_195",
@@ -1946,8 +2140,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/amc/index.m3u8?e=1779283842&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=021858f1b00e00e96d1c4781ed44da4c",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_195",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_196",
@@ -1956,8 +2151,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/pix11/index.m3u8?e=1779283842&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=11406d22f7f4a4964eff5eda975c2d3b",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_196",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_197",
@@ -1966,8 +2162,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/zee24/index.m3u8?e=1779283836&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=40021614a85616c858c5a6839f22dcc6",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_197",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_198",
@@ -1976,8 +2173,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/axs/index.m3u8?e=1779283843&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=32b8f9bb29ff4e04723a5837fba25912",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_198",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_199",
@@ -1986,8 +2184,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_199",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_200",
@@ -1996,8 +2195,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_200",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_201",
@@ -2006,8 +2206,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_201",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_202",
@@ -2016,8 +2217,9 @@
     "group": "Channels",
     "resolution": "4K",
     "isMovie": false,
-    "streamUrl": "https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_202",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_203",
@@ -2026,8 +2228,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_203",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_204",
@@ -2036,8 +2239,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://streams2.sofast.tv/sofastplayout/32eb332e-f644-46e5-ad91-e55ad80d14f7_0_HLS/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_204",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_205",
@@ -2046,8 +2250,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_205",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_206",
@@ -2056,8 +2261,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://aenetworks-worldwartv-rakuten.amagi.tv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_206",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_207",
@@ -2066,8 +2272,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_207",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_208",
@@ -2076,8 +2283,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://reflect-vod-cmac.cablecast.tv/live-11/live/stream-2/live.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_208",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_209",
@@ -2086,8 +2294,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://0145451975a64b35866170fd2e8fa486.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5987/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_209",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_210",
@@ -2096,8 +2305,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_210",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_211",
@@ -2106,8 +2316,9 @@
     "group": "Documentary",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_211",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_212",
@@ -2116,8 +2327,9 @@
     "group": "Channels",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/pix11/index.m3u8?e=1779283842&u=78be6644",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_212",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_213",
@@ -2126,8 +2338,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/RDSSocialTV/index.m3u8?e=1779283862&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fbef4d16f6abea87ad32acccd9c2a28c",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_213",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_214",
@@ -2136,8 +2349,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/hbo/index.m3u8?e=1779283863&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e4e97ebbe24cbdf38c9cd086323b3039",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_214",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_215",
@@ -2146,8 +2360,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/fox5/index.m3u8?e=1779283866&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3aab593a32cb4b2754467570e1c42136",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_215",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_216",
@@ -2156,8 +2371,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/foxbusiness/index.m3u8?e=1779283865&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c24958e7d2f98a772a97c77e942dc078",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_216",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_217",
@@ -2166,8 +2382,9 @@
     "group": "Documentary",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/discoveryfamily/index.m3u8?e=1779283866&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=f8ded49bb7e99514409772c85d44b971",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_217",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_218",
@@ -2176,8 +2393,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/bravo/index.m3u8?e=1779283867&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a60fb7d13dd4ea9bfa8669b1fc29a53c",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_218",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_219",
@@ -2186,8 +2404,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/cooking/index.m3u8?e=1779283869&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=aaa8e6d5eb83ab5d37ccd6f73988828d",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_219",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_220",
@@ -2196,8 +2415,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/comedycentral/index.m3u8?e=1779283868&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=dee438a9c2f015c824a618447e11d623",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_220",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_221",
@@ -2206,8 +2426,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/fx/index.m3u8?e=1779283870&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6a5cabf0ab9a0d4bc794ec00af1f0371",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_221",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_222",
@@ -2216,8 +2437,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/epix/index.m3u8?e=1779283869&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=63c6b35b74665280499da54c568ff282",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_222",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_223",
@@ -2226,8 +2448,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/hbo2/index.m3u8?e=1779283871&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c965d65d5d57410abd166c88e5c70c8b",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_223",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_224",
@@ -2236,8 +2459,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/foodnetwork/index.m3u8?e=1779283870&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=dda0004b8e85ccc033f3473846741003",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_224",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_225",
@@ -2246,8 +2470,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/hgtv/index.m3u8?e=1779283871&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b765b233682cebe7bcfb9cc380cd3353",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_225",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_226",
@@ -2256,8 +2481,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/laff/index.m3u8?e=1779283872&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d3bc12ec0ed6e181f5e328053530e9c7",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_226",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_227",
@@ -2266,8 +2492,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/lifetime/index.m3u8?e=1779283872&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=68ae0dcb6c7f8191fdf0362cf9a7ec37",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_227",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_228",
@@ -2276,8 +2503,9 @@
     "group": "Documentary",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/natgeo/index.m3u8?e=1779283873&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=b98710c5aef12640970c358e3a0472e5",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_228",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_229",
@@ -2286,8 +2514,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/tlc_hd/index.m3u8?e=1779283875&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e1b76eb7edd1d45d50cf85f4bf7a26ef",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_229",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_230",
@@ -2296,8 +2525,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/travelxp/index.m3u8?e=1779283876&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=61edf9ea37355b98aa9524cacb226e3b",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_230",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_231",
@@ -2306,8 +2536,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/syfy/index.m3u8?e=1779283874&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e8228a5c9face446d6cc4fd3aa7e6287",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_231",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_232",
@@ -2316,8 +2547,9 @@
     "group": "Weather",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/TheWeatherChannel/index.m3u8?e=1779283877&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=bff83cb7a2fcd3dbef83a9a3c7b969c4",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_232",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_233",
@@ -2326,8 +2558,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/cnbc/index.m3u8?e=1779283878&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c2df62f70129f9cc7e25ecbdc050b59b",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_233",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_234",
@@ -2336,8 +2569,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/cbs/index.m3u8?e=1779283878&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=38581bcdfcfefaccc60cd13023d0c783",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_234",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_235",
@@ -2346,8 +2580,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/mtv/index.m3u8?e=1779283879&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=eabe7b33941d288d3e5759384db43d1c",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_235",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_236",
@@ -2356,8 +2591,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/cp24/index.m3u8?e=1779283879&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d067c44283da7ab173a48b7a7023089b",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_236",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_237",
@@ -2366,8 +2602,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/msnbc/index.m3u8?e=1779283880&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=52aa596396f3495ef93e44de7133e626",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_237",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_238",
@@ -2376,8 +2613,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/usa/index.m3u8?e=1779283880&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=618f7c1e32e8a9d455697be12191f933",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_238",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_239",
@@ -2386,8 +2624,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_239",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_240",
@@ -2396,8 +2635,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_240",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_241",
@@ -2406,8 +2646,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/ts-eu-w1-n2/playlist/amg01076-lightningintern-actionhollywood-samsungnz/cb573d1e786c678f9bd43d6fcef04382847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258a9734cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7abb20e13db64a9e50149c32643fa83439fd501b2868153834bd725a4179f97f78fd242d7e4ef598d6f77a02022405fbdc213b1c853b1d69b6d3c8f795a297437c790e335caa1e43d277debf6cac505b5739cc84d290146e935c8054de3dd4bd31b4d0fca325a8dff082b18b7cd5a2e03a8e4ab8bc1f852d769d6adf3d47f7098b94136178925ef2b253c9fead854aaf755c7e66dd5ef292a31cec711c0ddaad5bbf9cd6b8c35c6c2c39d3f6947774b57d50aecc93b9b61f6509ce33f6d1c414da69f15e383da553f2b0fa5884cdb1e1ef68adfd6915e759a2e4b1adb61df5a176583613f2bab7eafe84906e311038b3132ec4b75d1128edf02c1e78ab5486bcf9dad24d860e0b206d78c728a652e560fb6b2611f724573d4e1711e721ee740f7d8deee670362b8a32d9f47b68daa5fc98681f5dd40f0651566967c26921b36/44/1280x720_2657600/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_241",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_242",
@@ -2416,8 +2657,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://aegis-cloudfront-1.tubi.video/d6cbb0de-68e4-4f3b-82f9-bf5d526e0bde/index_4.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_242",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_243",
@@ -2426,8 +2668,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_243",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_244",
@@ -2436,8 +2679,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master540p.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_244",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_245",
@@ -2446,8 +2690,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_22.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_245",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_246",
@@ -2456,8 +2701,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/Video-2Mbps.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_246",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_247",
@@ -2466,8 +2712,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dash4.antik.sk/live/test_euronews/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_247",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_248",
@@ -2476,8 +2723,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream03/streamPlaylist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_248",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_249",
@@ -2486,8 +2734,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://rt-glb.rttv.com/live/rtnews/playlist_1600Kb.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_249",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_250",
@@ -2496,8 +2745,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://linear901-oo-hls0-prd-gtm.delivery.skycdp.com/17501/sde-fast-skynews/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_250",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_251",
@@ -2506,8 +2756,9 @@
     "group": "English",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tv-trtworld.medya.trt.com.tr/master_480.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_251",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_252",
@@ -2516,8 +2767,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zeewion-xiaomi/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_252",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_253",
@@ -2526,8 +2778,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-4.pishow.tv/live/1143/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_253",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_254",
@@ -2536,8 +2789,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-2.pishow.tv/live/226/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_254",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_255",
@@ -2546,8 +2800,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_255",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_256",
@@ -2556,8 +2811,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_256",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_257",
@@ -2566,8 +2822,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_257",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_258",
@@ -2576,8 +2833,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://atomic.streamnet.ro/atomictv.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_258",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_259",
@@ -2586,8 +2844,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://hls.avang.live/hls/stream.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_259",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_260",
@@ -2596,8 +2855,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://fl.biztv.media/music_720_QAKpGmVUjaPApCNjpsgBxrdqNihAkl/tracks-v1a1/mono.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_260",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_261",
@@ -2606,8 +2866,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_261",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_262",
@@ -2616,8 +2877,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://mcncdndigital.com/balleballetv/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_262",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_263",
@@ -2626,8 +2888,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://amg01412-xiaomiasia-yrfmusic-xiaomi-1rmk2.amagi.tv/ts-eu-w1-n2/playlist/amg01412-xiaomiasia-yrfmusic-xiaomi/cb573d1e786c678f9bd43d6fcef04382847b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca36265299a7369cc350f7bd2ec5a2f803ebe764c53cb017c593f88f258a9734cc59e0a957f39e8fc8b307b24455a9c5a43e6a64cb7a9b30846d13df5e0014a957e14fa83439fd501b385865883438422a716c895f2dad1148be4ef598d6f77a02022405fbdc213b1c853b1d69b6d3c8f795a297437c790e335caa1e43d277debf6cac505b5739cc84d290146e935c8054de3dd4bd31b4d0fca325a8dff082b18b7cd5a2e03a8e4ab8bc1f852d769d6adf3d47f7098b94136178925ef2b253c9fead854aaf755c7e66dd5ef292a31cec711c0ddaad5bbf9cd6b8c35c6c2c39d3f6947774b57d50aecc93b9b61f6509ce33f6d1c414da69f15e383da553f2b0fa5884cdb1e1ef68adfd6915e759a2e4b1adb61df5a176583613f2bab7eafe84906e311038b3132ec4b75d1128edf02c1e78ab5486bcf9dad24d860e0b206d78c728a652e560fb6b2611f724573d4e1711e721ee740f7d8deee670363bda39a1ea19bfcbb9471df2d11bc632dc24e2570a8eeb9ce62ec/147/854x480_1724104/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_263",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_264",
@@ -2636,8 +2899,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://tvsen6.aynaott.com/GoldminesBollywood/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_264",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_265",
@@ -2646,8 +2910,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/AssamTalks/index.m3u8?e=1779283888&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=00d6be9c7179c8b12fb13515e7ab2386",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_265",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_266",
@@ -2656,8 +2921,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/TaazaTV/index.m3u8?e=1779283889&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=cc44db12b53dcec714c1fc339270755d",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_266",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_267",
@@ -2666,8 +2932,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/Dangal/index.m3u8?e=1779283890&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=0538e40970744c2993c693c596911e2a",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_267",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_268",
@@ -2676,8 +2943,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/9xjalwa/index.m3u8?e=1779283896&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c537db14645c6338e56ccd72bb375808",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_268",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_269",
@@ -2686,8 +2954,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/9X_Tashan/index.m3u8?e=1779283897&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=fb3597d8295ee74869ab8887d2b85cfc",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_269",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_270",
@@ -2696,8 +2965,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/Dhinchaak/index.m3u8?e=1779283897&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5754f86405785dc7f982d3a318f39f65",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_270",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_271",
@@ -2706,8 +2976,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/ManoranjanTV/index.m3u8?e=1779283898&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=315418928d40457555e899e78d4a0a9c",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_271",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_272",
@@ -2716,8 +2987,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/RepublicTVBharat/index.m3u8?e=1779283899&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4c0f183f73a081615f7bbf6e17adbdf7",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_272",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_273",
@@ -2726,8 +2998,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/Network10/index.m3u8?e=1779283899&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c18347bf18a650b71c67461777874c66",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_273",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_274",
@@ -2736,8 +3009,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://vods2.aynaott.com/hindimovies/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_274",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_275",
@@ -2746,8 +3020,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-3.pishow.tv/live/230/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_275",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_276",
@@ -2756,8 +3031,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_276",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_277",
@@ -2766,8 +3042,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/cartoonnetwork/index.m3u8?e=1779283917&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6f8487c9adac23cedcbca869d7d7a595",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_277",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_278",
@@ -2776,8 +3053,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/disneyjr/index.m3u8?e=1779283918&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=5269dc1176c26984cb3eff6a2c891c14",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_278",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_279",
@@ -2786,8 +3064,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/3abnkids/index.m3u8?e=1779283920&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=2032eede500d4def7448a9c0d71103e1",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_279",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_280",
@@ -2796,8 +3075,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/nicktoons/index.m3u8?e=1779283918&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=bbed6be573aa4a90a753bfb8fc060038",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_280",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_281",
@@ -2806,8 +3086,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/nickjr/index.m3u8?e=1779283919&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=4708f179311f53518e4b1a8b697c8c1e",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_281",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_282",
@@ -2816,8 +3097,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/MoonbugKids/index.m3u8?e=1779283923&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=52145358ed3be27c1e34ba90b246262a",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_282",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_283",
@@ -2826,8 +3108,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/disney/index.m3u8?e=1779283925&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=edae9ca94bed2313e48e56a9085b496d",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_283",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_284",
@@ -2836,8 +3119,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen5.aynaott.com/disneyxd/index.m3u8?e=1779283925&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=ffdc9b78c58295f55906f225a10a425c",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_284",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_285",
@@ -2846,8 +3130,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/teennick/index.m3u8?e=1779283927&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3404b7a0258a1438c3f8204f2df21ddc",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_285",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_286",
@@ -2856,8 +3141,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/nicklodean/index.m3u8?e=1779283926&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=6cbf077eae56bf7598b035f3c466d2b1",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_286",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_287",
@@ -2866,8 +3152,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/ytv/index.m3u8?e=1779283928&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=da75648d71ae8bd710a9bb53e62ce4c0",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_287",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_288",
@@ -2876,8 +3163,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_288",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_289",
@@ -2886,8 +3174,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_289",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_290",
@@ -2896,8 +3185,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://s.emisoras.tv:8081/diostevekids/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_290",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_291",
@@ -2906,8 +3196,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_291",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_292",
@@ -2916,8 +3207,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://wurlrainbowmedia.global.transmit.live/hls/68c497de18e2a74e37774fb3/v1/amc_anime_x_hidive_1/lg_us/latest/main/hls/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_292",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_293",
@@ -2926,8 +3218,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_293",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_294",
@@ -2936,8 +3229,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_294",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_295",
@@ -2946,8 +3240,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://s3.ideationtec.live/Cartoon_Network/Cartoon_Network.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_295",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_296",
@@ -2956,8 +3251,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_296",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_297",
@@ -2966,8 +3262,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_297",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_298",
@@ -2976,8 +3273,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_298",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_299",
@@ -2986,8 +3284,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_299",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_300",
@@ -2996,8 +3295,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_300",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_301",
@@ -3006,8 +3306,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_301",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_302",
@@ -3016,8 +3317,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_302",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_303",
@@ -3026,8 +3328,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://master-proxy.wispy-boat-fc77.workers.dev/?url=https://t.freetv.fun/live/disney-channel.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_303",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_304",
@@ -3036,8 +3339,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_304",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_305",
@@ -3046,8 +3350,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index_2.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_305",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_306",
@@ -3056,8 +3361,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8?DVR",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_306",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_307",
@@ -3066,8 +3372,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://amg01753-narrativeuk-amg01753c1-rakuten-uk-2339.playouts.now.amagi.tv/480p/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_307",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_308",
@@ -3076,8 +3383,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_308",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_309",
@@ -3086,8 +3394,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_309",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_310",
@@ -3096,8 +3405,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-4.pishow.tv/live/1473/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_310",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_311",
@@ -3106,8 +3416,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_311",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_312",
@@ -3116,8 +3427,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/doordarshan/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_312",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_313",
@@ -3126,8 +3438,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/@ddbharati/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_313",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_314",
@@ -3136,8 +3449,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/c/ddnews/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_314",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_315",
@@ -3146,8 +3460,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/DDIndia/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_315",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_316",
@@ -3156,8 +3471,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/@DDKisan/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_316",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_317",
@@ -3166,8 +3482,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/watch?v=Nq2wYlWFucg",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_317",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_318",
@@ -3176,8 +3493,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/watch?v=e1FIApIafWE",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_318",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_319",
@@ -3186,8 +3504,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/watch?v=sYZtOFzM78M",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_319",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_320",
@@ -3196,8 +3515,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/@DDUrdu/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_320",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_321",
@@ -3206,8 +3526,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/watch?v=nSpwwcHVp80",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_321",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_322",
@@ -3216,8 +3537,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/watch?v=3DbTO_AMhhc",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_322",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_323",
@@ -3226,8 +3548,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-abpananda-xiaomi/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_323",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_324",
@@ -3236,8 +3559,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_324",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_325",
@@ -3246,8 +3570,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_325",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_326",
@@ -3256,8 +3581,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://vg-republictvlive.akamaized.net/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/ec285d29-f52f-4113-a785-24233ef6d8f5/1.m3u8?sessionId=878a3aa5-8270-460e-84bd-959afebde079",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_326",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_327",
@@ -3266,8 +3592,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_327",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_328",
@@ -3276,8 +3603,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/chunklist_b1628000_sleng.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_328",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_329",
@@ -3286,8 +3614,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/pub-iotv9banaen8yq/live_480p/chunks.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_329",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_330",
@@ -3296,8 +3625,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zeebihar-xiaomi/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_330",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_331",
@@ -3306,8 +3636,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://t.freetv.fun/live/zee-news.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_331",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_332",
@@ -3316,8 +3647,9 @@
     "group": "Hindi & India",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_332",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_333",
@@ -3326,8 +3658,9 @@
     "group": "Religious",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen6.aynaott.com/eman/index.m3u8?e=1779283935&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=08f8a7c54838dd4274f8b058bbed710e",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_333",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_334",
@@ -3336,8 +3669,9 @@
     "group": "Religious",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/deen/index.m3u8?e=1779283935&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=d49bc388cc0adea4907ecc83f4c83c4c",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_334",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_335",
@@ -3346,8 +3680,9 @@
     "group": "Religious",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen7.aynaott.com/MadaniTV/index.m3u8?e=1779283937&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=8e3699711dd88227b533acc570b06a7b",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_335",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_336",
@@ -3356,8 +3691,9 @@
     "group": "Religious",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-4.pishow.tv/live/229/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_336",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_337",
@@ -3366,8 +3702,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_337",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_338",
@@ -3376,8 +3713,9 @@
     "group": "Weather",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_338",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_339",
@@ -3386,8 +3724,9 @@
     "group": "Weather",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://247wlive.foxweather.com/stream/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_339",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_340",
@@ -3396,8 +3735,9 @@
     "group": "Weather",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_340",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_341",
@@ -3406,8 +3746,9 @@
     "group": "Weather",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_341",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_342",
@@ -3416,8 +3757,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/Tsports/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_342",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_343",
@@ -3426,8 +3768,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/StarSports2/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_343",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_344",
@@ -3436,8 +3779,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/StarSportsSelect1/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_344",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_345",
@@ -3446,8 +3790,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/StarSportsSelect2/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_345",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_346",
@@ -3456,8 +3801,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/SonyTenSports2/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_346",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_347",
@@ -3466,8 +3812,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/SonyTenSports5/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_347",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_348",
@@ -3476,8 +3823,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/Eurosport/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_348",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_349",
@@ -3486,8 +3834,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/nagorik/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_349",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_350",
@@ -3496,8 +3845,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/News24/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_350",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_351",
@@ -3506,8 +3856,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "http://198.195.239.50:8095/JalshaMovies/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_351",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_352",
@@ -3516,8 +3867,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/ColorsBanglaChinema/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_352",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_353",
@@ -3526,8 +3878,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/ZeeBanglaCinema/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_353",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_354",
@@ -3536,8 +3889,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/SonyAath/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_354",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_355",
@@ -3546,8 +3900,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/StarPlus/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_355",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_356",
@@ -3556,8 +3911,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/SonyTv/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_356",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_357",
@@ -3566,8 +3922,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/SonyMAX/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_357",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_358",
@@ -3576,8 +3933,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/StarGold/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_358",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_359",
@@ -3586,8 +3944,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "http://198.195.239.50:8095/StarMovies/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_359",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_360",
@@ -3596,8 +3955,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/ZeeTV/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_360",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_361",
@@ -3606,8 +3966,9 @@
     "group": "Documentary",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/Discovery/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_361",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_362",
@@ -3616,8 +3977,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/NationalGeographic/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_362",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_363",
@@ -3626,8 +3988,9 @@
     "group": "Kids",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/CartoonNetwork/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_363",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_364",
@@ -3636,8 +3999,9 @@
     "group": "Documentary",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://198.195.239.50:8095/DiscoveryKids/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_364",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_365",
@@ -3646,8 +4010,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://cdn6.163189.xyz/163189/amty",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_365",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_366",
@@ -3656,8 +4021,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://77.46.130.252:99/maxsport4",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_366",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_367",
@@ -3666,8 +4032,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://200.115.120.1:8000/play/ca124/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_367",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_368",
@@ -3676,8 +4043,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://193.25.8.59:8000/fut2",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_368",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_369",
@@ -3686,8 +4054,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://190.92.10.66:4000/play/a001/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_369",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_370",
@@ -3696,8 +4065,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://91.201.172.14:35006/",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_370",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_371",
@@ -3706,8 +4076,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://czrb8vng.ottclub.xyz/iptv/AHMQNVLWUTM5PW/6554/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_371",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_372",
@@ -3716,8 +4087,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://str2.yodacdn.net/idman_300_to_small/tracks-v1a1/mono.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_372",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_373",
@@ -3726,8 +4098,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_373",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_374",
@@ -3736,8 +4109,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_374",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_375",
@@ -3746,8 +4120,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://179.60.224.196:8000/play/a0i7/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_375",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_376",
@@ -3756,8 +4131,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://145.239.5.177/559/mpegts",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_376",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_377",
@@ -3766,8 +4142,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://201.230.121.85:8000/play/a0yv/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_377",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_378",
@@ -3776,8 +4153,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://181.205.130.194:4000/play/a07i",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_378",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_379",
@@ -3786,8 +4164,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://45.173.74.2:2010/play/a08a/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_379",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_380",
@@ -3796,8 +4175,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://190.117.20.37:8000/play/a08d/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_380",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_381",
@@ -3806,8 +4186,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://190.117.20.39:8000/play/a08d/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_381",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_382",
@@ -3816,8 +4197,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://191.97.49.82:8001/play/a00m/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_382",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_383",
@@ -3826,8 +4208,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://cdntv.online/low/9mlxywika2/56.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_383",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_384",
@@ -3836,8 +4219,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2531/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_384",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_385",
@@ -3846,8 +4230,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/19158/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_385",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_386",
@@ -3856,8 +4241,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://145.239.5.177:80/559/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_386",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_387",
@@ -3866,8 +4252,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2532/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_387",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_388",
@@ -3876,8 +4263,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/7062/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_388",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_389",
@@ -3886,8 +4274,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://181.78.109.48:9998/play/a06r/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_389",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_390",
@@ -3896,8 +4285,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://200.115.120.1:8000/play/ca040/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_390",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_391",
@@ -3906,8 +4296,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2534/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_391",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_392",
@@ -3916,8 +4307,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2535/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_392",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_393",
@@ -3926,8 +4318,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://151.80.18.177:86/Canal+_sport_HD/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_393",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_394",
@@ -3936,8 +4329,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://185.46.48.18:80/match/tracks-v1a1/mono.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_394",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_395",
@@ -3946,8 +4340,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://95.47.155.244:8001/play/a003",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_395",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_396",
@@ -3956,8 +4351,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://tv.tuva.ru/machtv/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_396",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_397",
@@ -3966,8 +4362,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://5.188.221.43:8080/play/match",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_397",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_398",
@@ -3976,8 +4373,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://185.57.68.33/110/mpegts",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_398",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_399",
@@ -3986,8 +4384,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://cdntv.online/low/9mlxywika2/48.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_399",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_400",
@@ -3996,8 +4395,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://46.149.191.217:9010/play/a019",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_400",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_401",
@@ -4006,8 +4406,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://217.174.225.146/hls/ch004_720/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_401",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_402",
@@ -4016,8 +4417,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://93.93.113.95:25461/TV-Berati/XtreamCodes/495",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_402",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_403",
@@ -4026,8 +4428,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://217.73.139.200:5443/play/a01d",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_403",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_404",
@@ -4036,8 +4439,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://185.57.68.33:8091/110/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_404",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_405",
@@ -4046,8 +4450,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://93.93.113.95:25461/TV-Berati/XtreamCodes/494",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_405",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_406",
@@ -4056,8 +4461,9 @@
     "group": "Entertainment",
     "resolution": "SD",
     "isMovie": false,
-    "streamUrl": "http://185.57.68.33:80/110/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_406",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_407",
@@ -4066,8 +4472,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://193.25.8.59:8000/fut",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_407",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_408",
@@ -4076,8 +4483,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tva.in.ua/live/susp-sport.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_408",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_409",
@@ -4086,8 +4494,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_409",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_410",
@@ -4096,8 +4505,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://88.212.15.19/live/test_sport_2/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_410",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_411",
@@ -4106,8 +4516,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://88.212.15.19/live/test_sport1_25p/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_411",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_412",
@@ -4116,8 +4527,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://88.212.15.19/live/test_arenasport/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_412",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_413",
@@ -4126,8 +4538,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://77.46.130.252:99/maxsport1",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_413",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_414",
@@ -4136,8 +4549,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://77.46.130.252:99/maxsport3",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_414",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_415",
@@ -4146,8 +4560,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://77.46.130.252:99/maxsport2",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_415",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_416",
@@ -4156,8 +4571,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://cdntv.online/low/9mlxywika2/1021.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_416",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_417",
@@ -4166,8 +4582,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://46.149.191.217:9010/play/a017",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_417",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_418",
@@ -4176,8 +4593,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://88.212.15.19/live/test_arenasport_dva/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_418",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_419",
@@ -4186,8 +4604,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://cdntv.online/low/9mlxywika2/1022.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_419",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_420",
@@ -4196,8 +4615,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2555/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_420",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_421",
@@ -4206,8 +4626,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://cdntv.online/low/9mlxywika2/55.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_421",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_422",
@@ -4216,8 +4637,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://cdntv.online/low/9mlxywika2/57.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_422",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_423",
@@ -4226,8 +4648,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://jmp2.uk/stvp-ATAJ0500433A",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_423",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_424",
@@ -4236,8 +4659,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_424",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_425",
@@ -4246,8 +4670,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://212.186.45.34:9981/stream/channelid/906723447",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_425",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_426",
@@ -4256,8 +4681,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2561/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_426",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_427",
@@ -4266,8 +4692,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tv.cdn.xsg.ge/gpb-2tv/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_427",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_428",
@@ -4276,8 +4703,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2559/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_428",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_429",
@@ -4286,8 +4714,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2560/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_429",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_430",
@@ -4296,8 +4725,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_430",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_431",
@@ -4306,8 +4736,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://200.115.120.1:8000/play/ca016/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_431",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_432",
@@ -4316,8 +4747,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://wo0dyefk.dienalt.org/iptv/DV3AC2Q6YSR9XE/2558/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_432",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_433",
@@ -4326,8 +4758,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://iptv.prosto.tv:7000/ch109/video.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_433",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_434",
@@ -4336,8 +4769,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://217.174.225.146/legacyhls/ch004_720/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_434",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_435",
@@ -4346,8 +4780,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://shls-masr-ak.akamaized.net/out/v1/d5036cabf11e45bf9d0db410ca135c18/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_435",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_436",
@@ -4356,8 +4791,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://jmp2.uk/stvp-FR200016Y5",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_436",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_437",
@@ -4366,8 +4802,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://181.205.205.173:8888/play/a0h0/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_437",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_438",
@@ -4376,8 +4813,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://190.0.247.38:8000/play/a012",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_438",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_439",
@@ -4386,8 +4824,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://212.102.60.80/Infosport/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_439",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_440",
@@ -4396,8 +4835,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://190.0.247.38:8000/play/a068",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_440",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_441",
@@ -4406,8 +4846,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://rgelive.akamaized.net/hls/live/2043095/live3/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_441",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_442",
@@ -4416,8 +4857,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://mmn.mypsx.net:1935/live/mmnhdsport/chunklist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_442",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_443",
@@ -4426,8 +4868,9 @@
     "group": "Sports",
     "resolution": "SD",
     "isMovie": false,
-    "streamUrl": "https://livetr.teleromagna.it/mia/live/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_443",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_444",
@@ -4436,8 +4879,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://alpha.tv.online.tm/legacyhls/ch004_720/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_444",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_445",
@@ -4446,8 +4890,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://y3fqd48g.megatv.fun/iptv/NRLXRWSBWBPLN4/19146/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_445",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_446",
@@ -4456,8 +4901,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_446",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_447",
@@ -4466,8 +4912,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_447",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_448",
@@ -4476,8 +4923,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tv91.hostingnuclear.com:19360/telecosta/telecosta.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_448",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_449",
@@ -4486,8 +4934,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://200.10.30.241:8000/play/a01r/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_449",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_450",
@@ -4496,8 +4945,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://freem3u.xyz/api/live/play.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_450",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_451",
@@ -4506,8 +4956,9 @@
     "group": "Sports",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://rgelive.akamaized.net/hls/live/2043151/radiolive/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_451",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_452",
@@ -4516,8 +4967,9 @@
     "group": "Entertainment",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://45.5.119.43:4000/play/a05q/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_452",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_453",
@@ -4526,8 +4978,9 @@
     "group": "Latest",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_453",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_454",
@@ -4536,8 +4989,9 @@
     "group": "Latest",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://mediaserver.abnvideos.com/streams/abnurdu.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_454",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_455",
@@ -4546,8 +5000,9 @@
     "group": "Movies",
     "resolution": "HD",
     "isMovie": true,
-    "streamUrl": "https://korhls.persiana.live/hls/stream.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_455",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_456",
@@ -4556,8 +5011,9 @@
     "group": "Documentary",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_456",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_457",
@@ -4566,8 +5022,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist540p.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_457",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_458",
@@ -4576,8 +5033,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8_output_0.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_458",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_459",
@@ -4586,8 +5044,9 @@
     "group": "Documentary",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist480p.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_459",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_460",
@@ -4596,8 +5055,9 @@
     "group": "Documentary",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://wildearth-plex.amagi.tv/master.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_460",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_461",
@@ -4606,8 +5066,9 @@
     "group": "Drama",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://jk3lz82elw79-hls-live.5centscdn.com/harPalGeo/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_461",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_462",
@@ -4616,8 +5077,9 @@
     "group": "Drama",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/chunks.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_462",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_463",
@@ -4626,8 +5088,9 @@
     "group": "Drama",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://vods2.aynaott.com/gseriesDrama/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_463",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_464",
@@ -4636,8 +5099,9 @@
     "group": "Drama",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tvsen3.aynaott.com/n64PH4YL/index.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_464",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_465",
@@ -4646,8 +5110,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_465",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_466",
@@ -4656,8 +5121,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.twitch.tv/abcnewsal",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_466",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_467",
@@ -4666,8 +5132,9 @@
     "group": "Music",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://albportal.net/albkanalemusic.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_467",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_468",
@@ -4676,8 +5143,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.twitch.tv/topnewsal",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_468",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_469",
@@ -4686,8 +5154,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://tv.balkanweb.com/news24/livestream/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_469",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_470",
@@ -4696,8 +5165,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live1.mediadesk.al/cnatvlive.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_470",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_471",
@@ -4706,8 +5176,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/@EuronewsAlbania/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_471",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_472",
@@ -4716,8 +5187,9 @@
     "group": "News",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live1.mediadesk.al/oranews.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_472",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_473",
@@ -4726,8 +5198,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_473",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_474",
@@ -4736,8 +5209,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/user/encuentro/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_474",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_475",
@@ -4746,8 +5220,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/user/CanalPakapaka/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_475",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_476",
@@ -4756,8 +5231,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/c/todonoticias/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_476",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_477",
@@ -4766,8 +5242,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/watch?v=IxQ2-6Y4y9w",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_477",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_478",
@@ -4776,8 +5253,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/user/TVPublicaArgentina/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_478",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_479",
@@ -4786,8 +5264,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/watch?v=JuskTxbUqmY",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_479",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_480",
@@ -4796,8 +5275,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/c/canal26/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_480",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_481",
@@ -4806,8 +5286,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/c/cronicatv/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_481",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_482",
@@ -4816,8 +5297,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/c/LaNacionMas/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_482",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_483",
@@ -4826,8 +5308,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/c/c5n/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_483",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_484",
@@ -4836,8 +5319,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/c/A24com/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_484",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_485",
@@ -4846,8 +5330,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://www.youtube.com/c/americaenvivo/live",
-    "streamType": "youtube"
+    "streamUrl": "/api/stream/tv/ch_485",
+    "streamType": "youtube",
+    "playerType": "iframe"
   },
   {
     "id": "ch_486",
@@ -4856,8 +5341,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_486",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_487",
@@ -4866,8 +5352,9 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_487",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_488",
@@ -4876,8 +5363,9 @@
     "group": "Bangla",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "http://iptv.rtv-ooe.at/stream.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_488",
+    "streamType": "hls",
+    "playerType": "hls"
   },
   {
     "id": "ch_489",
@@ -4886,7 +5374,8 @@
     "group": "International",
     "resolution": "HD",
     "isMovie": false,
-    "streamUrl": "https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8",
-    "streamType": "hls"
+    "streamUrl": "/api/stream/tv/ch_489",
+    "streamType": "hls",
+    "playerType": "hls"
   }
 ]

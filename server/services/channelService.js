@@ -45,11 +45,16 @@ export function saveChannels(channels) {
   }
   fs.writeFileSync(CHANNELS_FILE, jsonContent, 'utf-8');
 
-  // Keep client-side fallback synced
+  // Keep client-side fallback synced with masked stream URLs (never raw upstream URLs)
   try {
     const clientDataDir = path.dirname(CLIENT_CHANNELS_FILE);
     if (fs.existsSync(clientDataDir)) {
-      fs.writeFileSync(CLIENT_CHANNELS_FILE, jsonContent, 'utf-8');
+      const maskedClientData = channels.map((ch) => ({
+        ...ch,
+        streamUrl: `/api/stream/tv/${ch.id}`,
+        playerType: ch.streamType === 'hls' || (ch.streamUrl && ch.streamUrl.includes('.m3u8')) ? 'hls' : 'iframe',
+      }));
+      fs.writeFileSync(CLIENT_CHANNELS_FILE, JSON.stringify(maskedClientData, null, 2), 'utf-8');
     }
   } catch (err) {
     console.warn('Could not sync to client channels file:', err.message);
