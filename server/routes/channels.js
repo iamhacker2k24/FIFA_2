@@ -10,14 +10,33 @@ import {
 
 const router = Router();
 
+function maskChannel(ch) {
+  if (!ch) return ch;
+  const rawUrl = ch.streamUrl || ch.url || '';
+  const clean = rawUrl.split('?')[0].toLowerCase();
+  const isDirect = ch.streamType === 'hls' || clean.endsWith('.m3u8') || clean.endsWith('.mpd') || clean.endsWith('.mp4');
+
+  const masked = { ...ch };
+  delete masked.rawUrl;
+  delete masked.url;
+  masked.streamUrl = `/api/stream/tv/${ch.id}`;
+  masked.playerType = isDirect ? 'hls' : 'iframe';
+  return masked;
+}
+
 // GET /api/channels - List channels with optional filters & pagination
 router.get('/', (req, res) => {
   try {
     const { category, search, onlyMovies, page, limit } = req.query;
     const result = getChannels({ category, search, onlyMovies, page, limit });
+    if (result && Array.isArray(result.channels)) {
+      result.channels = result.channels.map(maskChannel);
+    } else if (Array.isArray(result)) {
+      return res.json(result.map(maskChannel));
+    }
     res.json(result);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to retrieve channels' });
   }
 });
 
@@ -38,9 +57,9 @@ router.get('/:id', (req, res) => {
     if (!channel) {
       return res.status(404).json({ error: 'Channel not found' });
     }
-    res.json(channel);
+    res.json(maskChannel(channel));
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ error: 'Failed to retrieve channel' });
   }
 });
 
