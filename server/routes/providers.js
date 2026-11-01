@@ -39,7 +39,7 @@ function writeData(filename, data) {
 function maskItems(section, items) {
   if (!Array.isArray(items)) return [];
   return items.map((item) => {
-    const rawUrl = item.streamUrl || item.videoUrl || '';
+    const rawUrl = item.streamUrl || item.videoUrl || item.url || '';
     if (!rawUrl) return item;
 
     // Direct YouTube embeds
@@ -55,8 +55,9 @@ function maskItems(section, items) {
 
     const masked = { ...item };
     delete masked.rawUrl;
+    delete masked.url;
 
-    if (item.streamUrl) {
+    if (item.streamUrl || item.url) {
       masked.streamUrl = `/api/stream/${section}/${item.id}`;
     }
     if (item.videoUrl) {
