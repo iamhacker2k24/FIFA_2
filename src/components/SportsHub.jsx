@@ -7,6 +7,7 @@ import {
   ArrowLeft,
   X,
   Search,
+  ExternalLink,
 } from 'lucide-react';
 
 export default function SportsHub({ onSelectStream, onBackToHome }) {
@@ -251,7 +252,19 @@ export default function SportsHub({ onSelectStream, onBackToHome }) {
                     <Radio size={12} />
                     <span>Watch Stream</span>
                   </span>
-                  <span className="text-slate-400 text-[10px]">{item.category}</span>
+                  <div className="flex items-center gap-2">
+                    <span className="text-slate-400 text-[10px]">{item.category}</span>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        window.open(item.streamUrl, '_blank', 'noopener,noreferrer');
+                      }}
+                      className="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors"
+                      title="Open in new window"
+                    >
+                      <ExternalLink size={13} />
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

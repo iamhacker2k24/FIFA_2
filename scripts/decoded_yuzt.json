@@ -1,0 +1,378 @@
+[
+  {
+    "idx": 0,
+    "res": "https://playe-.vlive.in/jwplaye-?dtv="
+  },
+  {
+    "idx": 1,
+    "res": "location"
+  },
+  {
+    "idx": 2,
+    "res": "sea-ch"
+  },
+  {
+    "idx": 3,
+    "res": "get"
+  },
+  {
+    "idx": 4,
+    "res": "id"
+  },
+  {
+    "idx": 5,
+    "res": "channel"
+  },
+  {
+    "idx": 6,
+    "res": "AYKJ"
+  },
+  {
+    "idx": 7,
+    "res": "YqIJ"
+  },
+  {
+    "idx": 8,
+    "res": "cwNJ"
+  },
+  {
+    "idx": 9,
+    "res": "wTFJ"
+  },
+  {
+    "idx": 10,
+    "res": "findIndex"
+  },
+  {
+    "idx": 11,
+    "res": "name"
+  },
+  {
+    "idx": 12,
+    "res": "apiKey"
+  },
+  {
+    "idx": 13,
+    "res": "getElementById"
+  },
+  {
+    "idx": 14,
+    "res": "videoPlaye-"
+  },
+  {
+    "idx": 15,
+    "res": "playe--loade-"
+  },
+  {
+    "idx": 16,
+    "res": "style"
+  },
+  {
+    "idx": 17,
+    "res": "opacity"
+  },
+  {
+    "idx": 18,
+    "res": "1"
+  },
+  {
+    "idx": 19,
+    "res": "Live Event"
+  },
+  {
+    "idx": 20,
+    "res": "playe--title"
+  },
+  {
+    "idx": 21,
+    "res": "inne-Text"
+  },
+  {
+    "idx": 22,
+    "res": "Loading "
+  },
+  {
+    "idx": 23,
+    "res": "..."
+  },
+  {
+    "idx": 24,
+    "res": "https://in4.vlive.in/d-m.php?id="
+  },
+  {
+    "idx": 25,
+    "res": "then"
+  },
+  {
+    "idx": 26,
+    "res": "json"
+  },
+  {
+    "idx": 27,
+    "res": "u-l"
+  },
+  {
+    "idx": 28,
+    "res": "clea-key"
+  },
+  {
+    "idx": 29,
+    "res": "https://app.vlive.in/pl.html?manifest="
+  },
+  {
+    "idx": 30,
+    "res": "&keyid="
+  },
+  {
+    "idx": 31,
+    "res": "&key="
+  },
+  {
+    "idx": 32,
+    "res": "split"
+  },
+  {
+    "idx": 33,
+    "res": ":"
+  },
+  {
+    "idx": 34,
+    "res": "s-c"
+  },
+  {
+    "idx": 35,
+    "res": "P-emium Event"
+  },
+  {
+    "idx": 36,
+    "res": "e--o-"
+  },
+  {
+    "idx": 37,
+    "res": "Invalid -esponse o- data not found."
+  },
+  {
+    "idx": 38,
+    "res": "St-eam load failed."
+  },
+  {
+    "idx": 39,
+    "res": "catch"
+  },
+  {
+    "idx": 40,
+    "res": "E--o- fetching data:"
+  },
+  {
+    "idx": 41,
+    "res": "Netwo-k e--o-. Could not load st-eam."
+  },
+  {
+    "idx": 42,
+    "res": "finally"
+  },
+  {
+    "idx": 43,
+    "res": "0"
+  },
+  {
+    "idx": 44,
+    "res": "channel-g-id"
+  },
+  {
+    "idx": 45,
+    "res": "inne-HTML"
+  },
+  {
+    "idx": 46,
+    "res": ""
+  },
+  {
+    "idx": 47,
+    "res": "fo-Each"
+  },
+  {
+    "idx": 48,
+    "res": "c-eateElement"
+  },
+  {
+    "idx": 49,
+    "res": "button"
+  },
+  {
+    "idx": 50,
+    "res": "className"
+  },
+  {
+    "idx": 51,
+    "res": "glass-btn text-left p-3 -ounded-xl flex items-cente- gap-3 g-oup -elative ove-flow-hidden t-ansition-all du-ation-300 hove-:bg-white/5"
+  },
+  {
+    "idx": 52,
+    "res": "btn-"
+  },
+  {
+    "idx": 53,
+    "res": "onclick"
+  },
+  {
+    "idx": 54,
+    "res": "image"
+  },
+  {
+    "idx": 55,
+    "res": "<img s-c=\""
+  },
+  {
+    "idx": 56,
+    "res": "\" class=\"w-10 h-10 -ounded-full object-cove- bo-de- bo-de--white/10 g-oup-hove-:bo-de--white/30 t-ansition-colo-s\">"
+  },
+  {
+    "idx": 57,
+    "res": "\n                        <div class=\"w-10 h-10 -ounded-full bg-white/5 flex items-cente- justify-cente- sh-ink-0 bo-de- bo-de--white/10 g-oup-hove-:bo-de--white/30 t-ansition-colo-s\">\n                            <i class=\"fas "
+  },
+  {
+    "idx": 58,
+    "res": " "
+  },
+  {
+    "idx": 59,
+    "res": " text-lg\"></i>\n                        </div>"
+  },
+  {
+    "idx": 60,
+    "res": "icon"
+  },
+  {
+    "idx": 61,
+    "res": "colo-"
+  },
+  {
+    "idx": 62,
+    "res": "\n                    "
+  },
+  {
+    "idx": 63,
+    "res": "\n                    <div class=\"flex flex-col\">\n                        <span class=\"font-semibold text-sm text-g-ay-200 g-oup-hove-:text-white\">"
+  },
+  {
+    "idx": 64,
+    "res": "</span>\n                        <span class=\"text-[10px] text-g-ay-500 g-oup-hove-:text-g-ay-400\">Tap to watch</span>\n                    </div>\n                    <div class=\"absolute -ight-3 opacity-0 g-oup-hove-:opacity-100 t-ansition-opacity\">\n                        <i class=\"fas fa-play text-xs text-white/50\"></i>\n                    </div>\n                "
+  },
+  {
+    "idx": 65,
+    "res": "appendChild"
+  },
+  {
+    "idx": 66,
+    "res": "includes"
+  },
+  {
+    "idx": 67,
+    "res": ".mpd"
+  },
+  {
+    "idx": 68,
+    "res": ".m3u8"
+  },
+  {
+    "idx": 69,
+    "res": "jwplaye-"
+  },
+  {
+    "idx": 70,
+    "res": "vlive"
+  },
+  {
+    "idx": 71,
+    "res": "classList"
+  },
+  {
+    "idx": 72,
+    "res": "-emove"
+  },
+  {
+    "idx": 73,
+    "res": "active-channel"
+  },
+  {
+    "idx": 74,
+    "res": "que-ySelecto-"
+  },
+  {
+    "idx": 75,
+    "res": "i"
+  },
+  {
+    "idx": 76,
+    "res": "animate-pulse"
+  },
+  {
+    "idx": 77,
+    "res": "add"
+  },
+  {
+    "idx": 78,
+    "res": "o-igin"
+  },
+  {
+    "idx": 79,
+    "res": "pathname"
+  },
+  {
+    "idx": 80,
+    "res": "?id="
+  },
+  {
+    "idx": 81,
+    "res": "?channel="
+  },
+  {
+    "idx": 82,
+    "res": "title"
+  },
+  {
+    "idx": 83,
+    "res": "DTV HINDI LIVE"
+  },
+  {
+    "idx": 84,
+    "res": "text"
+  },
+  {
+    "idx": 85,
+    "res": "Watch "
+  },
+  {
+    "idx": 86,
+    "res": " Live on DTV Hindi!"
+  },
+  {
+    "idx": 87,
+    "res": "sha-e"
+  },
+  {
+    "idx": 88,
+    "res": "log"
+  },
+  {
+    "idx": 89,
+    "res": "clipboa-d"
+  },
+  {
+    "idx": 90,
+    "res": "w-iteText"
+  },
+  {
+    "idx": 91,
+    "res": "Link copied to clipboa-d!"
+  },
+  {
+    "idx": 92,
+    "res": "addEventListene-"
+  },
+  {
+    "idx": 93,
+    "res": "DOMContentLoaded"
+  }
+]

@@ -14,6 +14,7 @@ import {
   Tv,
   RotateCcw,
   AlertTriangle,
+  ExternalLink,
 } from 'lucide-react';
 import { getStreamUrl, isEmbedUrl } from '../utils/streamHelper';
 
@@ -222,6 +223,16 @@ export default function CinemaModal({
 
           <div className="flex items-center gap-2">
             <button
+              onClick={() => {
+                const target = embedUrl || streamUrl;
+                if (target) window.open(target, '_blank', 'noopener,noreferrer');
+              }}
+              className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
+              title="Open in new window"
+            >
+              <ExternalLink size={18} />
+            </button>
+            <button
               onClick={onClose}
               className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"
               title="Close (Esc)"
@@ -235,6 +246,7 @@ export default function CinemaModal({
         <div className="relative aspect-video w-full bg-black flex items-center justify-center overflow-hidden">
           {embedUrl ? (
             <iframe
+              key={channel.id || embedUrl}
               src={embedUrl}
               title={channel.name || channel.title}
               className="w-full h-full border-0"

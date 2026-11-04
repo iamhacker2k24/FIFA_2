@@ -51,17 +51,30 @@ function maskItems(section, items) {
     }
 
     const clean = rawUrl.split('?')[0].toLowerCase();
-    const isDirect = clean.endsWith('.m3u8') || clean.endsWith('.mpd') || clean.endsWith('.mp4');
+    const isDirect =
+      clean.endsWith('.m3u8') ||
+      clean.endsWith('.mpd') ||
+      clean.endsWith('.mp4') ||
+      rawUrl.includes('.m3u8') ||
+      rawUrl.includes('.mpd');
 
     const masked = { ...item };
     delete masked.rawUrl;
     delete masked.url;
 
+    let queryParam = '';
+    try {
+      const parsed = new URL(rawUrl);
+      if (parsed.searchParams.get('id')) {
+        queryParam = `?id=${encodeURIComponent(parsed.searchParams.get('id'))}`;
+      }
+    } catch {}
+
     if (item.streamUrl || item.url) {
-      masked.streamUrl = `/api/stream/${section}/${item.id}`;
+      masked.streamUrl = `/api/stream/${section}/${item.id}${queryParam}`;
     }
     if (item.videoUrl) {
-      masked.videoUrl = `/api/stream/${section}/${item.id}`;
+      masked.videoUrl = `/api/stream/${section}/${item.id}${queryParam}`;
     }
     masked.playerType = isDirect ? 'hls' : 'iframe';
 
@@ -70,6 +83,32 @@ function maskItems(section, items) {
 }
 
 // ----------------- SPORTS -----------------
+let cachedSportsData = null;
+let cachedSportsDataTime = 0;
+
+router.get('/sports-data', async (req, res) => {
+  const now = Date.now();
+  if (cachedSportsData && now - cachedSportsDataTime < 60000) {
+    return res.json(cachedSportsData);
+  }
+  try {
+    const upstream = await fetch('https://sonujson-v5.pages.dev/Data/sports.json', {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      }
+    });
+    if (upstream.ok) {
+      cachedSportsData = await upstream.json();
+      cachedSportsDataTime = now;
+      return res.json(cachedSportsData);
+    }
+  } catch (err) {
+    console.warn('Failed to fetch upstream sports data:', err.message);
+  }
+  if (cachedSportsData) return res.json(cachedSportsData);
+  res.status(502).json({ error: 'Sports stream metadata temporarily unavailable' });
+});
+
 router.get('/sports', (req, res) => {
   const data = readData('sports.json');
   res.json(maskItems('sports', data));
