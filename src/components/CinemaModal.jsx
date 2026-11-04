@@ -15,6 +15,7 @@ import {
   RotateCcw,
   AlertTriangle,
   ExternalLink,
+  Zap,
 } from 'lucide-react';
 import { getStreamUrl, isEmbedUrl } from '../utils/streamHelper';
 
@@ -208,9 +209,12 @@ export default function CinemaModal({
                     <Film size={10} /> MOVIE
                   </span>
                 )}
+                <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 flex items-center gap-1 shrink-0">
+                  <Zap size={10} className="fill-emerald-400" /> Auto-Play
+                </span>
                 {embedUrl && (
                   <span className="px-1.5 py-0.5 rounded text-[10px] font-medium bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 shrink-0">
-                    Protected Player
+                    HD Player
                   </span>
                 )}
               </div>
@@ -224,7 +228,7 @@ export default function CinemaModal({
           <div className="flex items-center gap-2">
             <button
               onClick={() => {
-                const target = embedUrl || streamUrl;
+                const target = embedUrl || channel.streamUrl || rawUrl;
                 if (target) window.open(target, '_blank', 'noopener,noreferrer');
               }}
               className="p-2 rounded-xl text-slate-400 hover:text-white hover:bg-slate-800 transition-colors cursor-pointer"

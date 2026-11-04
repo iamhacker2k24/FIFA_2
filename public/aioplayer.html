@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <title>Live Sports Player | DevStream</title>
+  
+  <script src="/security.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+    }
+    body, html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #020617;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #000;
+    }
+    /* Sleek Overlays */
+    .glass-bar {
+      background: linear-gradient(180deg, rgba(2, 6, 23, 0.85) 0%, rgba(2, 6, 23, 0) 100%);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .pulse-dot {
+      animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.2); }
+    }
+    /* Floating Unmute / Autoplay Banner */
+    .unmute-banner {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(16, 185, 129, 0.5);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7), 0 0 20px rgba(16, 185, 129, 0.2);
+      backdrop-filter: blur(16px);
+      border-radius: 9999px;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      cursor: pointer;
+      z-index: 40;
+      transition: all 0.25s ease;
+      color: #fff;
+    }
+    .unmute-banner:hover {
+      transform: translate(-50%, -50%) scale(1.05);
+      border-color: rgba(52, 211, 153, 0.8);
+      background: rgba(15, 23, 42, 0.95);
+    }
+    /* Custom controls styling */
+    .shaka-overflow-menu, .shaka-settings-menu {
+      background: rgba(15, 23, 42, 0.95) !important;
+      border: 1px solid rgba(255, 255, 255, 0.1) !important;
+      border-radius: 12px !important;
+    }
+  </style>
+</head>
+<body class="flex flex-col">
+
+  <div class="video-container" id="player-wrapper">
+    <!-- Main Video Element with DRM & Security Attributes -->
+    <video id="video" playsinline webkit-playsinline controlslist="nodownload noplaybackrate" oncontextmenu="return false;" draggable="false"></video>
+
+    <!-- Top Info Bar (fades out on inactivity) -->
+    <div id="top-bar" class="glass-bar absolute top-0 left-0 right-0 p-3 sm:p-4 flex items-center justify-between z-30 transition-opacity duration-300">
+      <div class="flex items-center gap-3">
+        <div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-red-600/90 text-white text-[11px] font-black uppercase tracking-wider shadow-md">
+          <span class="w-2 h-2 rounded-full bg-white pulse-dot"></span>
+          <span>LIVE</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <h1 id="channel-name" class="text-sm sm:text-base font-bold text-white tracking-tight drop-shadow">Loading Sports Stream...</h1>
+          <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold">1080p HD</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <!-- Autoplay Status Indicator / Toggle Button -->
+        <button id="btn-autoplay-toggle" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 text-emerald-400 border border-emerald-500/30 text-xs font-semibold cursor-pointer transition-all" title="Autoplay Active">
+          <i class="fas fa-bolt text-emerald-400"></i>
+          <span id="autoplay-label" class="hidden sm:inline">Autoplay ON</span>
+        </button>
+
+        <!-- Open in New Window Button -->
+        <button id="btn-popout" class="p-2 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 text-xs cursor-pointer transition-all" title="Open in new window">
+          <i class="fas fa-external-link-alt"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Floating Unmute / Autoplay Banner -->
+    <div id="unmute-banner" class="unmute-banner hidden">
+      <div class="w-8 h-8 rounded-full bg-emerald-500 text-slate-950 flex items-center justify-center font-bold">
+        <i class="fas fa-volume-up"></i>
+      </div>
+      <div class="flex flex-col text-left">
+        <span class="text-xs font-bold text-white">Stream is Playing Muted</span>
+        <span class="text-[11px] text-emerald-400 font-medium">Click here to enable live sound</span>
+      </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loader" class="absolute inset-0 flex flex-col items-center justify-center bg-slate-950/80 z-20 transition-opacity duration-300">
+      <div class="w-12 h-12 rounded-full border-4 border-emerald-500/20 border-t-emerald-400 animate-spin mb-3"></div>
+      <p id="loader-text" class="text-xs text-slate-300 font-medium tracking-wide">Connecting to live feed...</p>
+    </div>
+
+    <!-- Error Fallback Banner -->
+    <div id="error-banner" class="absolute inset-0 flex flex-col items-center justify-center bg-slate-950/95 z-30 p-6 text-center hidden">
+      <div class="w-14 h-14 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center border border-amber-500/30 mb-3 text-2xl">
+        <i class="fas fa-exclamation-triangle"></i>
+      </div>
+      <h2 class="text-base font-bold text-white">Stream Temporarily Reconnecting</h2>
+      <p id="error-desc" class="text-xs text-slate-400 mt-1 max-w-sm">Fetching updated security token and reconnecting to sports broadcast...</p>
+      <button id="btn-retry" class="mt-4 px-5 py-2 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs cursor-pointer shadow-lg shadow-emerald-500/20 transition-all flex items-center gap-2">
+        <i class="fas fa-redo"></i>
+        <span>Retry Connection</span>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    let player = null;
+    let hlsInstance = null;
+    let currentChannelId = '1106';
+    let isAutoplayEnabled = true;
+
+    const video = document.getElementById('video');
+    const playerWrapper = document.getElementById('player-wrapper');
+    const loader = document.getElementById('loader');
+    const loaderText = document.getElementById('loader-text');
+    const errorBanner = document.getElementById('error-banner');
+    const unmuteBanner = document.getElementById('unmute-banner');
+    const channelNameEl = document.getElementById('channel-name');
+    const btnPopout = document.getElementById('btn-popout');
+    const btnRetry = document.getElementById('btn-retry');
+    const btnAutoplayToggle = document.getElementById('btn-autoplay-toggle');
+    const autoplayLabel = document.getElementById('autoplay-label');
+
+    // Parse URL parameter
+    function getQueryParam(name) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name) || '';
+    }
+
+    // Set Autoplay Button UI
+    function updateAutoplayUI(enabled) {
+      isAutoplayEnabled = enabled;
+      if (enabled) {
+        btnAutoplayToggle.className = 'flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 text-xs font-semibold cursor-pointer transition-all';
+        autoplayLabel.textContent = 'Autoplay ON';
+      } else {
+        btnAutoplayToggle.className = 'flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800 text-slate-400 border border-slate-700 text-xs font-semibold cursor-pointer transition-all';
+        autoplayLabel.textContent = 'Autoplay OFF';
+      }
+    }
+
+    btnAutoplayToggle.addEventListener('click', () => {
+      updateAutoplayUI(!isAutoplayEnabled);
+      if (isAutoplayEnabled && video.paused) {
+        attemptAutoplay();
+      }
+    });
+
+    btnPopout.addEventListener('click', () => {
+      window.open(window.location.href, '_blank', 'noopener,noreferrer');
+    });
+
+    btnRetry.addEventListener('click', () => {
+      errorBanner.classList.add('hidden');
+      initStream();
+    });
+
+    // Unmute click handlers
+    unmuteBanner.addEventListener('click', () => {
+      video.muted = false;
+      video.volume = 1.0;
+      unmuteBanner.classList.add('hidden');
+    });
+
+    // Tap anywhere on video to unmute if muted
+    video.addEventListener('click', () => {
+      if (video.muted && !unmuteBanner.classList.hidden) {
+        video.muted = false;
+        video.volume = 1.0;
+        unmuteBanner.classList.add('hidden');
+      }
+    });
+
+    // Robust Autoplay Logic with immediate fallback
+    async function attemptAutoplay() {
+      if (!isAutoplayEnabled) return;
+
+      try {
+        // Try unmuted first
+        video.muted = false;
+        await video.play();
+        unmuteBanner.classList.add('hidden');
+      } catch (err) {
+        // If unmuted playback is blocked by browser policy, fallback to muted autoplay
+        console.warn('Unmuted autoplay prevented by browser policy, starting muted:', err.message);
+        video.muted = true;
+        try {
+          await video.play();
+          // Show sleek unmute prompt
+          unmuteBanner.classList.remove('hidden');
+        } catch (e2) {
+          console.error('Muted autoplay failed:', e2);
+        }
+      }
+    }
+
+    async function initStream() {
+      loader.classList.remove('hidden');
+      loader.style.opacity = '1';
+      errorBanner.classList.add('hidden');
+      unmuteBanner.classList.add('hidden');
+
+      const urlId = getQueryParam('id') || getQueryParam('channel') || getQueryParam('ch');
+      if (urlId) {
+        currentChannelId = urlId.trim();
+      }
+
+      try {
+        loaderText.textContent = 'Loading channel stream...';
+        const res = await fetch(`/api/sports-channel/${encodeURIComponent(currentChannelId)}`);
+        if (!res.ok) throw new Error('Channel details not found');
+        const data = await res.json();
+
+        channelNameEl.textContent = data.title || 'Live Sports Broadcast';
+        document.title = `${data.title || 'Live Sports'} | HD Live`;
+
+        if (data.type === 'hls' && data.streamUrl) {
+          // Play via HLS
+          playHls(data.streamUrl);
+        } else {
+          // Play via Shaka DASH
+          await playDash(data.manifestUrl, data.clearKeys);
+        }
+      } catch (err) {
+        console.error('Stream initialization error:', err);
+        loader.classList.add('hidden');
+        errorBanner.classList.remove('hidden');
+      }
+    }
+
+    async function playDash(manifestUrl, clearKeys) {
+      if (hlsInstance) {
+        hlsInstance.destroy();
+        hlsInstance = null;
+      }
+
+      if (!player) {
+        shaka.polyfill.installAll();
+        if (!shaka.Player.isBrowserSupported()) {
+          throw new Error('Browser not supported for MSE streaming');
+        }
+
+        player = new shaka.Player(video);
+        player.addEventListener('error', (event) => {
+          console.error('Shaka player error:', event.detail);
+          if (event.detail && event.detail.severity === 2) {
+            errorBanner.classList.remove('hidden');
+          }
+        });
+      }
+
+      // Configure ClearKey DRM
+      const drmConfig = {};
+      if (clearKeys && Object.keys(clearKeys).length > 0) {
+        drmConfig.clearKeys = clearKeys;
+      }
+
+      player.configure({
+        drm: drmConfig,
+        streaming: {
+          lowLatencyMode: true,
+          bufferingGoal: 4,
+          rebufferingGoal: 1,
+          bufferBehind: 15,
+          retryParameters: {
+            maxAttempts: 5,
+            baseDelay: 500,
+            backoffFactor: 1.5
+          }
+        }
+      });
+
+      loaderText.textContent = 'Buffering live broadcast...';
+      await player.load(manifestUrl);
+      loader.style.opacity = '0';
+      setTimeout(() => loader.classList.add('hidden'), 300);
+
+      await attemptAutoplay();
+    }
+
+    function playHls(streamUrl) {
+      if (player) {
+        player.destroy();
+        player = null;
+      }
+
+      if (Hls.isSupported()) {
+        if (hlsInstance) hlsInstance.destroy();
+        hlsInstance = new Hls({
+          enableWorker: true,
+          lowLatencyMode: true,
+        });
+        hlsInstance.loadSource(streamUrl);
+        hlsInstance.attachMedia(video);
+        hlsInstance.on(Hls.Events.MANIFEST_PARSED, () => {
+          loader.style.opacity = '0';
+          setTimeout(() => loader.classList.add('hidden'), 300);
+          attemptAutoplay();
+        });
+        hlsInstance.on(Hls.Events.ERROR, (event, data) => {
+          if (data.fatal) {
+            errorBanner.classList.remove('hidden');
+          }
+        });
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = streamUrl;
+        video.addEventListener('loadedmetadata', () => {
+          loader.style.opacity = '0';
+          setTimeout(() => loader.classList.add('hidden'), 300);
+          attemptAutoplay();
+        });
+      }
+    }
+
+    // Auto-hide top bar after 3 seconds of inactivity
+    let hideTimeout;
+    const topBar = document.getElementById('top-bar');
+    function showBars() {
+      topBar.style.opacity = '1';
+      clearTimeout(hideTimeout);
+      hideTimeout = setTimeout(() => {
+        if (!video.paused) {
+          topBar.style.opacity = '0';
+        }
+      }, 3500);
+    }
+    playerWrapper.addEventListener('mousemove', showBars);
+    playerWrapper.addEventListener('touchstart', showBars);
+    video.addEventListener('pause', () => { topBar.style.opacity = '1'; });
+    video.addEventListener('play', () => { showBars(); });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initStream();
+    });
+  </script>
+</body>
+</html>

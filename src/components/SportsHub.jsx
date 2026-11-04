@@ -141,7 +141,11 @@ export default function SportsHub({ onSelectStream, onBackToHome }) {
           </div>
 
           <div className="flex items-center gap-2">
-            <span className="px-3 py-1.5 rounded-xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-bold">
+            <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-bold">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+              Auto-Play Enabled
+            </span>
+            <span className="px-3 py-1.5 rounded-xl bg-slate-800 text-slate-300 border border-slate-700 text-xs font-bold">
               {sportsStreams.length} Live Channels Available
             </span>
           </div>
@@ -221,8 +225,11 @@ export default function SportsHub({ onSelectStream, onBackToHome }) {
                     <span className="w-1.5 h-1.5 rounded-full bg-white animate-ping" />
                     {item.status || 'LIVE'}
                   </span>
+                  <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
+                    Auto-Play
+                  </span>
                   {item.resolution && (
-                    <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-slate-900/90 text-emerald-400 border border-emerald-500/40">
+                    <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-slate-900/90 text-slate-300 border border-slate-700">
                       {item.resolution}
                     </span>
                   )}

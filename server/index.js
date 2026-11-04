@@ -23,6 +23,14 @@ app.use(cors({ origin: '*' }));
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
+// Security Headers Middleware
+app.use((req, res, next) => {
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-XSS-Protection', '1; mode=block');
+  res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+  next();
+});
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   const stats = getCategories();
@@ -40,6 +48,22 @@ app.use('/api/proxy', proxyRouter);
 app.get('/api/stream/:section/:id', handleStreamById);
 app.head('/api/stream/:section/:id', handleStreamById);
 app.use('/api', providersRouter);
+
+// Serve local aioplayer and sports portal
+app.use((req, res, next) => {
+  if (req.method !== 'GET') return next();
+  const p = decodeURIComponent(req.path).toLowerCase();
+  if (p === '/aioplayer' || p === '/aioplayer.html' || p.includes('aioplayer')) {
+    return res.sendFile(path.resolve(__dirname, '../public/aioplayer.html'));
+  }
+  if (p === '/sports.html' || p === '/dtv.html' || p === '/sports-portal') {
+    return res.sendFile(path.resolve(__dirname, '../public/sports.html'));
+  }
+  next();
+});
+
+// Serve static public assets
+app.use(express.static(path.resolve(__dirname, '../public')));
 
 // Serve static built frontend files if dist directory exists
 const distPath = path.resolve(__dirname, '../dist');

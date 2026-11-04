@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <title>DTV HINDI LIVE STREAM | HD Sports Portal</title>
+  
+  <script src="/security.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    /* Glassmorphism & Animations */
+    .glass-panel {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    }
+    .glass-btn {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0));
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+    }
+    .glass-btn:active {
+      transform: scale(0.95);
+    }
+    /* Active State Style */
+    .active-channel {
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.25), rgba(5, 150, 105, 0.15)) !important;
+      border: 1px solid rgba(52, 211, 153, 0.6) !important;
+      box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+      transform: scale(0.98);
+    }
+    body {
+      background: #0f172a;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(16, 185, 129, 0.15) 0px, transparent 50%);
+      background-attachment: fixed;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    /* Loading Spinner */
+    .loader {
+      border: 3px solid rgba(255, 255, 255, 0.1);
+      border-left-color: #10b981;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+    ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center pb-10">
+
+  <!-- Header -->
+  <header class="w-full p-4 flex justify-between items-center glass-panel sticky top-0 z-50 rounded-b-xl mb-6 max-w-4xl backdrop-blur-xl bg-black/40">
+    <div class="flex items-center gap-3">
+      <div class="relative">
+        <span class="absolute -top-1 -right-1 flex h-3 w-3">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500"></span>
+        </span>
+        <i class="fas fa-play-circle text-2xl text-emerald-400"></i>
+      </div>
+      <div class="flex flex-col">
+        <h1 class="font-bold text-lg tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-cyan-400 leading-none">
+          DTV HINDI LIVE
+        </h1>
+        <span class="text-[10px] text-slate-400 mt-1">Multi-Channel HD Sports Broadcast</span>
+      </div>
+    </div>
+    
+    <div id="status-badge" class="flex items-center gap-2 text-xs font-mono text-emerald-300 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">
+      <i class="fas fa-satellite-dish animate-pulse"></i>
+      <span id="current-channel-name-header">Auto-Play Ready</span>
+    </div>
+
+    <div class="flex items-center gap-2">
+      <a href="/" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 font-semibold border border-slate-700 transition-all flex items-center gap-1.5 no-underline">
+        <i class="fas fa-home"></i>
+        <span class="hidden sm:inline">Main Hub</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Player Container -->
+  <main class="w-full max-w-4xl px-3 flex flex-col gap-5">
+    
+    <!-- Top Stream Player Card -->
+    <div class="glass-panel p-2 sm:p-3 rounded-2xl overflow-hidden relative group">
+      
+      <!-- Top Video Toolbar -->
+      <div class="flex items-center justify-between pb-2 mb-2 border-b border-white/10 px-1">
+        <div class="flex items-center gap-2">
+          <span class="bg-red-600 text-white text-[10px] font-black px-2.5 py-0.5 rounded-full shadow-lg uppercase tracking-wider flex items-center gap-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-white animate-ping"></span>
+            LIVE
+          </span>
+          <span id="player-title" class="text-white font-bold text-sm drop-shadow-md truncate max-w-[200px] sm:max-w-md">Sony Sports Ten 1 HD</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <!-- Autoplay Indicator Button -->
+          <button id="btn-force-autoplay" class="flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-semibold cursor-pointer transition-all hover:bg-emerald-500/30" title="Click to trigger Autoplay">
+            <i class="fas fa-bolt text-emerald-400"></i>
+            <span class="hidden sm:inline">Auto-Play Active</span>
+          </button>
+
+          <!-- Popout to New Window -->
+          <button id="btn-popout" class="p-1.5 px-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 text-xs cursor-pointer transition-all flex items-center gap-1" title="Open Stream in New Window">
+            <i class="fas fa-external-link-alt"></i>
+            <span class="hidden sm:inline text-[11px]">New Tab</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Video Loader -->
+      <div id="player-loader" class="absolute inset-0 z-20 bg-black/80 flex flex-col items-center justify-center transition-opacity duration-300 pointer-events-none opacity-0">
+        <div class="loader mb-2"></div>
+        <span class="text-xs text-slate-300 font-medium">Loading live broadcast...</span>
+      </div>
+
+      <!-- Iframe Video Player with full Autoplay & DRM permissions -->
+      <div class="aspect-video w-full bg-black rounded-xl overflow-hidden shadow-2xl relative">
+        <iframe 
+          id="videoPlayer" 
+          src="/aioplayer.html?id=162" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" 
+          allowfullscreen 
+          class="w-full h-full object-cover">
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Quick Channel Selector & Channel Count -->
+    <div class="glass-panel p-4 rounded-2xl flex flex-col sm:flex-row justify-between items-center gap-3">
+      <div class="flex items-center gap-2">
+        <div class="p-2 rounded-xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-sm">
+          <i class="fas fa-tv"></i>
+        </div>
+        <div>
+          <h2 class="text-sm font-bold text-white">Live Sports Channels</h2>
+          <p class="text-xs text-slate-400">Click any channel below to switch streams with instant auto-play</p>
+        </div>
+      </div>
+
+      <!-- Search Input -->
+      <div class="relative w-full sm:w-64">
+        <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 text-xs"></i>
+        <input 
+          id="channel-search" 
+          type="text" 
+          placeholder="Filter channels..." 
+          class="w-full pl-8 pr-3 py-1.5 rounded-xl bg-slate-900/90 border border-slate-800 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500"
+        />
+      </div>
+    </div>
+
+    <!-- Live Channel Grid -->
+    <div class="space-y-3">
+      <div id="channel-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-10 mb-4 text-center text-xs text-slate-500">
+    <p>&copy; 2026 DevStream Sports • High Performance DASH & HLS Player with ClearKey DRM</p>
+  </footer>
+
+  <script>
+    // 34 Sports Channels List with local endpoints
+    const channelList = [
+      {
+        "name": "Sony Sports Ten 1 HD",
+        "url": "/aioplayer.html?id=162",
+        "image": "https://img.media.jio.com/tvpimages/5/8/300256_1753198281835_l_medium.jpg"
+      },
+      {
+        "name": "Sony Sports Ten 2 HD",
+        "url": "/aioplayer.html?id=891",
+        "image": "https://img.media.jio.com/tvpimages/94/91/300273_1753198175927_l_medium.jpg"
+      },
+      {
+        "name": "Sony Sports Ten 3 Hindi HD",
+        "url": "/aioplayer.html?id=892",
+        "image": "https://img.media.jio.com/tvpimages/1/58/300255_1758886957880_l_medium.jpg"
+      },
+      {
+        "name": "Sony Sports Ten 4 Telugu",
+        "url": "/aioplayer.html?id=1773",
+        "image": "https://img.media.jio.com/tvpimages/69/98/301739_1758886924465_l_medium.jpg"
+      },
+      {
+        "name": "Sony Sports Ten 4 Tamil",
+        "url": "/aioplayer.html?id=3514",
+        "image": "https://img.media.jio.com/tvpimages/21/10/304240_1787558465564_l_medium.jpg"
+      },
+      {
+        "name": "Sony Sports Ten 4 Kannada",
+        "url": "/aioplayer.html?id=3585",
+        "image": "https://img.media.jio.com/tvpimages/88/41/304241_1787558888185_l_medium.jpg"
+      },
+      {
+        "name": "Sony Sports Ten 5 HD",
+        "url": "/aioplayer.html?id=155",
+        "image": "https://img.media.jio.com/tvpimages/31/97/300258_1753198241206_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 1 HD",
+        "url": "/aioplayer.html?id=1106",
+        "image": "https://img.media.jio.com/tvpimages/76/32/301981_1749665662917_p.jpg"
+      },
+      {
+        "name": "Star Sports 1 Hindi HD",
+        "url": "/aioplayer.html?id=1108",
+        "image": "https://img.media.jio.com/tvpimages/5/6/301982_1760005838319_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 1 Hindi",
+        "url": "/aioplayer.html?id=362",
+        "image": "https://img.media.jio.com/tvpimages/13/81/302112_1753186300125_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 1",
+        "url": "/aioplayer.html?id=1142",
+        "image": "https://img.media.jio.com/tvpimages/13/81/302112_1753186300125_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 1 Tamil HD",
+        "url": "/aioplayer.html?id=3277",
+        "image": "https://img.media.jio.com/tvpimages/63/12/302798_1753186358482_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 1 Tamil",
+        "url": "/aioplayer.html?id=1124",
+        "image": "https://img.media.jio.com/tvpimages/18/88/301987_1753186377318_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 1 Telugu HD",
+        "url": "/aioplayer.html?id=3278",
+        "image": "https://img.media.jio.com/tvpimages/57/53/302799_1753186339185_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 1 Telugu",
+        "url": "/aioplayer.html?id=1651",
+        "image": "https://img.media.jio.com/tvpimages/26/11/301986_1753186395982_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 1 Kannada",
+        "url": "/aioplayer.html?id=1650",
+        "image": "https://img.media.jio.com/tvpimages/21/53/301985_1753186414777_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 2 HD",
+        "url": "/aioplayer.html?id=1109",
+        "image": "https://img.media.jio.com/tvpimages/78/48/301983_1753186259779_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 2 Hindi HD",
+        "url": "/aioplayer.html?id=1984",
+        "image": "https://img.media.jio.com/tvpimages/78/48/301983_1753186259779_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 2 Hindi",
+        "url": "/aioplayer.html?id=1985",
+        "image": "https://img.media.jio.com/tvpimages/78/48/301983_1753186259779_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 2",
+        "url": "/aioplayer.html?id=1141",
+        "image": "https://img.media.jio.com/tvpimages/78/48/301983_1753186259779_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 2 Tamil HD",
+        "url": "/aioplayer.html?id=3273",
+        "image": "https://img.media.jio.com/tvpimages/18/88/301987_1753186377318_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 2 Tamil",
+        "url": "/aioplayer.html?id=2853",
+        "image": "https://img.media.jio.com/tvpimages/18/88/301987_1753186377318_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 2 Telugu HD",
+        "url": "/aioplayer.html?id=3274",
+        "image": "https://img.media.jio.com/tvpimages/26/11/301986_1753186395982_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 2 Telugu",
+        "url": "/aioplayer.html?id=2852",
+        "image": "https://img.media.jio.com/tvpimages/26/11/301986_1753186395982_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 2 Kannada",
+        "url": "/aioplayer.html?id=1122",
+        "image": "https://img.media.jio.com/tvpimages/21/53/301985_1753186414777_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports 3",
+        "url": "/aioplayer.html?id=1389",
+        "image": "https://img.media.jio.com/tvpimages/57/2/301984_1753186279624_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports Select 1 HD",
+        "url": "/aioplayer.html?id=460",
+        "image": "https://img.media.jio.com/tvpimages/72/75/300806_1753186433246_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports Select 1",
+        "url": "/aioplayer.html?id=1123",
+        "image": "https://img.media.jio.com/tvpimages/72/75/300806_1753186433246_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports Select 2 HD",
+        "url": "/aioplayer.html?id=461",
+        "image": "https://img.media.jio.com/tvpimages/53/56/300808_1753186450694_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports Select 2",
+        "url": "/aioplayer.html?id=1114",
+        "image": "https://img.media.jio.com/tvpimages/53/56/300808_1753186450694_l_medium.jpg"
+      },
+      {
+        "name": "Star Sports Khel",
+        "url": "/aioplayer.html?id=1998",
+        "image": "https://img.media.jio.com/tvpimages/51/87/301988_1753186469601_l_medium.jpg"
+      },
+      {
+        "name": "Eurosport HD",
+        "url": "/aioplayer.html?id=875",
+        "image": "https://img.media.jio.com/tvpimages/6/97/300452_1753198301540_l_medium.jpg"
+      },
+      {
+        "name": "DD Sports",
+        "url": "/aioplayer.html?id=204",
+        "image": "https://img.media.jio.com/tvpimages/26/51/300490_1753198321043_l_medium.jpg"
+      },
+      {
+        "name": "Eurosport",
+        "url": "/aioplayer.html?id=1294",
+        "image": "https://img.media.jio.com/tvpimages/6/97/300452_1753198301540_l_medium.jpg"
+      }
+    ];
+
+    let currentActiveIndex = 0;
+    const videoPlayer = document.getElementById('videoPlayer');
+    const playerTitle = document.getElementById('player-title');
+    const playerLoader = document.getElementById('player-loader');
+    const channelGrid = document.getElementById('channel-grid');
+    const searchInput = document.getElementById('channel-search');
+    const btnPopout = document.getElementById('btn-popout');
+    const btnForceAutoplay = document.getElementById('btn-force-autoplay');
+    const statusBadge = document.getElementById('status-badge');
+
+    function playChannel(index) {
+      if (index < 0 || index >= channelList.length) return;
+      const channel = channelList[index];
+      currentActiveIndex = index;
+
+      playerLoader.style.opacity = '1';
+      playerTitle.textContent = channel.name;
+      document.getElementById('current-channel-name-header').textContent = channel.name;
+
+      videoPlayer.src = channel.url;
+
+      // Update active highlight on buttons
+      document.querySelectorAll('.channel-btn').forEach((btn, i) => {
+        if (i === index) {
+          btn.classList.add('active-channel');
+        } else {
+          btn.classList.remove('active-channel');
+        }
+      });
+
+      setTimeout(() => {
+        playerLoader.style.opacity = '0';
+      }, 700);
+    }
+
+    function renderChannels(filterText = '') {
+      channelGrid.innerHTML = '';
+      const text = filterText.toLowerCase().trim();
+
+      channelList.forEach((channel, index) => {
+        if (text && !channel.name.toLowerCase().includes(text)) {
+          return;
+        }
+
+        const btn = document.createElement('button');
+        btn.className = `channel-btn glass-btn text-left p-3 rounded-xl flex items-center justify-between group relative overflow-hidden transition-all duration-300 hover:bg-white/10 ${index === currentActiveIndex ? 'active-channel' : ''}`;
+        btn.id = `btn-${index}`;
+        
+        btn.onclick = () => {
+          playChannel(index);
+        };
+
+        btn.innerHTML = `
+          <div class="flex items-center gap-3">
+            <img src="${channel.image}" alt="" class="w-10 h-10 rounded-full object-cover border border-white/10 group-hover:border-emerald-400/50 transition-colors bg-slate-900" onerror="this.src='/favicon.svg'"/>
+            <div class="flex flex-col">
+              <span class="font-bold text-xs sm:text-sm text-gray-200 group-hover:text-white line-clamp-1">${channel.name}</span>
+              <span class="text-[10px] text-emerald-400 flex items-center gap-1 font-semibold">
+                <i class="fas fa-play text-[8px]"></i> Auto-Play Feed
+              </span>
+            </div>
+          </div>
+          <button class="popout-single p-2 text-slate-400 hover:text-white rounded-lg hover:bg-white/10" title="Open in new window" onclick="event.stopPropagation(); window.open('${channel.url}', '_blank');">
+            <i class="fas fa-external-link-alt text-xs"></i>
+          </button>
+        `;
+
+        channelGrid.appendChild(btn);
+      });
+    }
+
+    // New Window Popout Handler
+    btnPopout.addEventListener('click', () => {
+      const activeUrl = channelList[currentActiveIndex]?.url || '/aioplayer.html?id=162';
+      window.open(activeUrl, '_blank', 'noopener,noreferrer');
+    });
+
+    // Force Autoplay Trigger
+    btnForceAutoplay.addEventListener('click', () => {
+      playChannel(currentActiveIndex);
+    });
+
+    // Filter Search
+    searchInput.addEventListener('input', (e) => {
+      renderChannels(e.target.value);
+    });
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const reqId = params.get('id') || params.get('channel') || params.get('ch');
+      
+      let initIndex = 0;
+      if (reqId) {
+        const found = channelList.findIndex(c => c.url.includes(`id=${reqId}`) || c.name.toLowerCase().includes(reqId.toLowerCase()));
+        if (found !== -1) initIndex = found;
+      }
+
+      renderChannels();
+      playChannel(initIndex);
+    });
+  </script>
+</body>
+</html>
